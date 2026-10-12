@@ -34,15 +34,7 @@ export async function handler(req, res) {
   const pathname = new URL(req.url, "http://localhost").pathname;
   try {
     if (pathname === "/api/status" && req.method === "GET") {
-      return sendJson(res, 200, { qlooConfigured: Boolean(process.env.QLOO_API_KEY), qlooKeyLength: process.env.QLOO_API_KEY?.length || 0, qlooBaseUrl: process.env.QLOO_BASE_URL || "default", sampleModeAvailable: true });
-    }
-    if (pathname === "/api/qloo-diagnostic" && req.method === "GET") {
-      const base = process.env.QLOO_BASE_URL || "https://hackathon.api.qloo.com";
-      const search = await fetch(`${base}/search?query=Dune&take=1`, { headers: { "X-Api-Key": process.env.QLOO_API_KEY, Accept: "application/json" } });
-      const headers = { "X-Api-Key": process.env.QLOO_API_KEY, Accept: "application/json" };
-      const urls = ["place","brand","artist"].map(domain => `${base}/v2/insights?filter.type=urn%3Aentity%3A${domain}${domain === "place" ? "&filter.location.query=Lagos" : ""}&signal.interests.entities=3037F0E8-C912-4DC0-BDE3-1F94631F9DA6&feature.explainability=true&take=1`);
-      const responses = await Promise.all(urls.map(url => fetch(url, { headers })));
-      return sendJson(res, 200, { searchStatus: search.status, insightStatuses: responses.map(response => response.status), insightBodies: await Promise.all(responses.map(async response => (await response.text()).slice(0, 180))) });
+      return sendJson(res, 200, { qlooConfigured: Boolean(process.env.QLOO_API_KEY), sampleModeAvailable: true });
     }
     if (pathname === "/api/concepts" && req.method === "POST") {
       return sendJson(res, 200, await createConcepts(await readJson(req), {
