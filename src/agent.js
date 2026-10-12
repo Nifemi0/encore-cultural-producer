@@ -45,7 +45,7 @@ function evidence(entity, fit) { return entity ? { id: entity.id, name: entity.n
 export function composeConcepts(brief, research, mode) {
   const rankedPlaces = rankPlaces(research.domains.place || [], brief);
   const requiresLargeVenue = brief.budget === "Flagship" || /headline-scale|major live event|stadium|arena|large concert|concert location/i.test(brief.objective);
-  const minimumVenueScore = requiresLargeVenue ? 75 : 40;
+  const minimumVenueScore = requiresLargeVenue ? 100 : 40;
   const eligiblePlaces = rankedPlaces.filter(item => item.fit.score >= minimumVenueScore);
   const brands = research.domains.brand || [];
   const artists = research.domains.artist || [];

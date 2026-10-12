@@ -25,3 +25,9 @@ test("flagship briefs reject culinary clubs even when metadata calls them perfor
   assert.ok(concepts.every(concept=>concept.venue.startsWith("Major venue shortlist required")));
   assert.ok(concepts.every(concept=>concept.evidence.every(item=>item.name!=="SA Culinary Club")));
 });
+test("headline-scale briefs reject nightclubs and ordinary performance venues",()=>{
+  const brief=validateBrief({...input,budget:"Flagship",objective:"Plan a headline-scale homecoming concert"});
+  const research={anchor:{id:"a",name:"Beyoncé",domain:"artist"},domains:{place:[{id:"p",name:"NOTO Houston",domain:"place",description:"Live music performance venue",address:"Houston"}],brand:[],artist:[]}};
+  const concepts=composeConcepts(brief,research,"live");
+  assert.ok(concepts.every(concept=>concept.venue.startsWith("Major venue shortlist required")));
+});

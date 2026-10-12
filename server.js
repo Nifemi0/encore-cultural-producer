@@ -20,6 +20,14 @@ function sendJson(res, status, data) {
   res.end(JSON.stringify(data));
 }
 
+function withDeadline(promise, milliseconds = 35_000) {
+  let timeout;
+  const deadline = new Promise((_, reject) => {
+    timeout = setTimeout(() => reject(new AppError("Qloo took too long to answer. Please try again shortly.", 504)), milliseconds);
+  });
+  return Promise.race([promise, deadline]).finally(() => clearTimeout(timeout));
+}
+
 async function readJson(req) {
   let body = "";
   for await (const chunk of req) {
@@ -37,10 +45,10 @@ export async function handler(req, res) {
       return sendJson(res, 200, { qlooConfigured: Boolean(process.env.QLOO_API_KEY), sampleModeAvailable: true });
     }
     if (pathname === "/api/concepts" && req.method === "POST") {
-      return sendJson(res, 200, await createConcepts(await readJson(req), {
+      return sendJson(res, 200, await withDeadline(createConcepts(await readJson(req), {
         apiKey: process.env.QLOO_API_KEY,
         baseUrl: process.env.QLOO_BASE_URL
-      }));
+      })));
     }
     if (pathname === "/api/dossier" && req.method === "POST") {
       return sendJson(res, 200, buildDossier(await readJson(req)));
