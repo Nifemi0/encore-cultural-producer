@@ -34,7 +34,7 @@ export async function handler(req, res) {
   const pathname = new URL(req.url, "http://localhost").pathname;
   try {
     if (pathname === "/api/status" && req.method === "GET") {
-      return sendJson(res, 200, { qlooConfigured: Boolean(process.env.QLOO_API_KEY), sampleModeAvailable: true });
+      return sendJson(res, 200, { qlooConfigured: Boolean(process.env.QLOO_API_KEY), qlooKeyLength: process.env.QLOO_API_KEY?.length || 0, qlooBaseUrl: process.env.QLOO_BASE_URL || "default", sampleModeAvailable: true });
     }
     if (pathname === "/api/concepts" && req.method === "POST") {
       return sendJson(res, 200, await createConcepts(await readJson(req), {
