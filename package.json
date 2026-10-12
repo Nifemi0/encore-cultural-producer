@@ -1,0 +1,16 @@
+{
+  "name": "encore-cultural-producer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A Qloo-powered creative producer for culturally grounded pop-up collaborations.",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}

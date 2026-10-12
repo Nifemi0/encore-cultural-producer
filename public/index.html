@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Encore turns cultural affinity into pop-up collaborations people remember.">
+  <title>Encore — Cultural collaboration agent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="#top" aria-label="Encore home"><span class="brand-mark" aria-hidden="true"></span>Encore</a>
+    <nav aria-label="Main navigation"><a href="#studio">Studio</a><a href="#process">How it works</a></nav>
+    <a class="status-pill" href="#studio"><span id="modeBadge">Checking Qloo</span><b>→</b></a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-frame">
+        <img class="hero-visual" src="/assets/encore-cultural-constellation.png" alt="Abstract glass cultural signals connected in a constellation">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Qloo-powered creative intelligence</p>
+          <h1><span>Ideas</span> worth<br>showing up for.</h1>
+          <p class="hero-copy">Encore finds the cultural connection hiding between an audience, a city, and the things they already love—then builds the activation around it.</p>
+          <a class="primary-link" href="#studio">Create an activation <span>↗</span></a>
+        </div>
+        <div class="scroll-cue" aria-hidden="true"><span>Scroll to connect the signals</span><i></i></div>
+      </div>
+    </section>
+
+    <section class="signal-strip" id="process" aria-label="How Encore works">
+      <p>One brief</p><span></span><p>Cross-domain signals</p><span></span><p>Three creative routes</p><span></span><p>One production dossier</p>
+    </section>
+
+    <section class="mechanism">
+      <div class="mechanism-copy">
+        <p class="eyebrow">The intelligence layer</p>
+        <h2>A brief becomes<br>a cultural constellation.</h2>
+        <p>Encore resolves the thing your audience already loves, then uses Qloo to discover affinity across the city, places, brands, and artists around it. Every proposed collaboration keeps its evidence attached.</p>
+        <a class="inline-link" href="#studio">Try the creative studio <span>→</span></a>
+      </div>
+      <div class="orbit-system" aria-label="Encore connects an anchor to places, brands, and artists">
+        <div class="orbit-ring ring-one"></div><div class="orbit-ring ring-two"></div>
+        <div class="orbit-core"><small>Anchor</small><strong>Dune</strong></div>
+        <div class="orbit-node node-place"><i></i><span>Place</span><strong>Lagos</strong></div>
+        <div class="orbit-node node-brand"><i></i><span>Brand</span><strong>Material</strong></div>
+        <div class="orbit-node node-artist"><i></i><span>Artist</span><strong>Sound</strong></div>
+        <div class="orbit-note">Grounded by Qloo IDs and affinity signals</div>
+      </div>
+    </section>
+
+    <section class="outputs">
+      <div class="outputs-heading">
+        <p class="eyebrow">What comes back</p>
+        <h2>Creative range.<br><span>Production clarity.</span></h2>
+        <p>Three deliberately different ways into the same culture, followed by a dossier your team can challenge, verify, and build.</p>
+      </div>
+      <div class="route-stack">
+        <article class="route-card route-close"><div><small>Closest fit</small><b>01</b></div><h3>Follow the strongest signal.</h3><p>A high-confidence route built from the most coherent place, partner, and artist affinities.</p></article>
+        <article class="route-card route-bridge"><div><small>Cultural bridge</small><b>02</b></div><h3>Bring adjacent worlds together.</h3><p>A shared ritual creates an entry point for two audiences with a credible cultural overlap.</p></article>
+        <article class="route-card route-twist"><div><small>Plot twist</small><b>03</b></div><h3>Make the connection worth explaining.</h3><p>A less obvious signal becomes the memorable hook, while the evidence remains visible.</p></article>
+      </div>
+    </section>
+
+    <section class="dossier-preview">
+      <div class="preview-panel">
+        <div class="preview-top"><span>Activation dossier</span><span>Human verification required</span></div>
+        <div class="preview-title"><small>Selected direction</small><h3>Signal Room</h3><p>A cinematic night shaped by place, sound, material, and a shareable closing artifact.</p></div>
+        <div class="preview-grid"><div><small>Guest journey</small><strong>Arrival → centerpiece → artifact</strong></div><div><small>Partner roles</small><strong>Host → maker → performer</strong></div><div><small>Production priorities</small><strong>Rights → availability → price</strong></div></div>
+      </div>
+      <div class="preview-copy"><p class="eyebrow">Ready for the room</p><h2>The idea arrives with the questions that matter.</h2><p>Encore separates cultural evidence from operational assumptions. Your team sees what Qloo supports, what the agent inferred, and what a producer still needs to verify.</p></div>
+    </section>
+
+    <section class="studio" id="studio">
+      <div class="section-heading">
+        <p class="eyebrow">Creative studio</p>
+        <h2>Give Encore a world.<br><span>Get the unexpected back.</span></h2>
+      </div>
+      <form id="briefForm" class="brief-grid">
+        <label class="field field-wide"><span>Artist, film, game, or brand</span><input name="anchor" value="Dune" required maxlength="100"></label>
+        <label class="field"><span>City</span><input name="city" value="Lagos" required maxlength="100"></label>
+        <label class="field"><span>Budget</span><select name="budget"><option>Lean</option><option selected>Medium</option><option>Flagship</option></select></label>
+        <label class="field field-wide"><span>Who should care?</span><input name="audience" value="Design-conscious young professionals who want a cinematic night out" required maxlength="160"></label>
+        <label class="field field-wide"><span>What should this achieve?</span><textarea name="objective" required maxlength="180">Create an opening-weekend experience people will talk about and photograph.</textarea></label>
+        <label class="field"><span>Format</span><select name="format"><option selected>One-night pop-up</option><option>Weekend residency</option><option>Intimate supper club</option><option>Listening session</option></select></label>
+        <label class="field"><span>Constraints</span><input name="constraints" placeholder="Optional: alcohol-free, accessible…" maxlength="220"></label>
+        <label class="sample-toggle"><input id="sampleMode" name="sampleMode" type="checkbox"><span>Use sample evidence</span><small>For reviewing the flow before a Qloo key is configured.</small></label>
+        <button class="primary-button" type="submit"><span>Generate three directions</span><b>↗</b></button>
+      </form>
+    </section>
+
+    <section id="researchSection" class="research hidden" aria-live="polite">
+      <div class="section-heading row-heading"><div><p class="eyebrow">Research trail</p><h2 id="researchTitle">Investigating the brief.</h2></div><p id="researchMode" class="mode-note"></p></div>
+      <ol id="trail" class="trail"></ol>
+    </section>
+
+    <section id="conceptSection" class="concepts hidden">
+      <div class="section-heading"><p class="eyebrow">Concept board</p><h2>Three ways into the culture.</h2></div>
+      <div id="conceptGrid" class="concept-grid"></div>
+    </section>
+
+    <section id="dossierSection" class="dossier hidden">
+      <div class="dossier-bar"><p class="eyebrow">Activation dossier</p><button id="copyDossier" class="quiet-button">Copy brief</button></div>
+      <div id="dossierContent"></div>
+    </section>
+  </main>
+
+  <footer><div class="footer-brand"><span class="brand-mark" aria-hidden="true"></span><strong>Encore</strong></div><p>Qloo supplies cultural research. Human producers verify feasibility and make the final call.</p></footer>
+  <template id="conceptTemplate"><article class="concept-card"><div class="card-top"><span class="strategy"></span><span class="mode-pill"></span></div><h3></h3><p class="hook"></p><div class="venue"></div><div class="experience"></div><div class="evidence-block"><p>Qloo evidence</p><div class="evidence-list"></div></div><p class="why"></p><button class="select-button">Build this activation <span>→</span></button></article></template>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

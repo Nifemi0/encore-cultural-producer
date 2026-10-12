@@ -1,0 +1,15 @@
+Encore local verification
+Date: 2026-10-05 WAT
+Command: npm test
+
+Tests: 8
+Passed: 8
+Failed: 0
+
+Coverage of behavior:
+- Brief validation and rejection
+- Three distinct concept strategies
+- Evidence retention on every concept
+- Dossier generation and limitation disclosure
+- Qloo payload extraction and normalization
+- Cross-domain exact anchor selection

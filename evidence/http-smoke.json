@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-05 WAT",
+  "server": "http://localhost:4174",
+  "qlooConfigured": false,
+  "sampleMode": true,
+  "conceptCount": 3,
+  "strategies": ["Closest fit", "Cultural bridge", "Plot twist"],
+  "totalEvidenceRows": 9,
+  "dossierTitle": "Dune: Signal Room",
+  "partnerRoles": 3,
+  "note": "This verifies the local sample-mode HTTP flow. It does not verify live Qloo access."
+}
