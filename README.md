@@ -35,6 +35,12 @@ Encore follows the hackathon guide's required request shape:
 
 Open `http://localhost:4174`.
 
+## Public demo
+
+- Live app: https://encore.nuvixes.studio
+- Vercel fallback: https://encore-cultural-producer.vercel.app
+- Public source: https://github.com/Nifemi0/encore-cultural-producer
+
 ## Test
 
 ```sh
