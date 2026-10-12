@@ -33,11 +33,20 @@ window.addEventListener("scroll", updateScrollScene, { passive: true });
 window.addEventListener("resize", updateScrollScene, { passive: true });
 updateScrollScene();
 
-async function json(url, options) {
-  const response = await fetch(url, options);
-  const data = await response.json();
-  if (!response.ok) throw new Error(data.error || "Request failed.");
-  return data;
+async function json(url, options = {}) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 40_000);
+  try {
+    const response = await fetch(url, { ...options, signal: controller.signal });
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error || "Request failed.");
+    return data;
+  } catch (error) {
+    if (error?.name === "AbortError") throw new Error("Encore timed out while waiting for Qloo. Please try again.");
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 async function loadStatus() {

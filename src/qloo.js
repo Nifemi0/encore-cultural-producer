@@ -48,19 +48,19 @@ async function request(pathname, params, config, fetcher = fetch) {
 
   const pending = (async () => {
     let response;
-    for (let attempt = 0; attempt < 3; attempt += 1) {
+    for (let attempt = 0; attempt < 2; attempt += 1) {
       try {
         response = await fetcher(url, {
           headers: { "X-Api-Key": config.apiKey, Accept: "application/json" },
-          signal: AbortSignal.timeout(15_000)
+          signal: AbortSignal.timeout(8_000)
         });
       } catch {
-        if (attempt === 2) throw new AppError("Qloo could not be reached. Try again shortly.", 502);
+        if (attempt === 1) throw new AppError("Qloo could not be reached. Try again shortly.", 502);
         await pause((config.retryDelayMs ?? 800) * (attempt + 1));
         continue;
       }
       if (response.status !== 429) break;
-      if (attempt === 2) throw new AppError("Qloo is temporarily rate-limited. Wait a moment and try again.", 429);
+      if (attempt === 1) throw new AppError("Qloo is temporarily rate-limited. Wait a moment and try again.", 429);
       const retryAfter = Number(response.headers?.get?.("retry-after"));
       const delay = Number.isFinite(retryAfter) && retryAfter > 0 ? Math.min(retryAfter * 1000, 5000) : (config.retryDelayMs ?? 800) * (attempt + 1);
       await pause(delay);
