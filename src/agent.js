@@ -23,14 +23,32 @@ export function validateBrief(input) {
 }
 
 function select(items, index) { return items.length ? items[index % items.length] : null; }
-function evidence(entity) { return entity ? { id: entity.id, name: entity.name, domain: entity.domain, affinity: entity.affinity, address: entity.address } : null; }
+function placeFit(place, brief) {
+  const text = `${place?.name || ""} ${place?.description || ""} ${place?.categoryText || ""}`.toLowerCase();
+  const exclusions = /radio|fm|broadcast|clinic|hospital|bank|office|investment|school|university|church|mosque|restaurant|cafe|salon/;
+  const large = /stadium|arena|event ?center|event ?centre|convention|expo|exhibition|amphitheatre|amphitheater|coliseum|sports complex|sports ground|festival ground/;
+  const music = /concert hall|auditorium|theatre|theater|music hall|live music|performance venue/;
+  const flexible = /hotel|rooftop|club|lounge|gallery|cultural center|cultural centre|park|beach/;
+  if (exclusions.test(text)) return { class: "cultural lead", score: -20, note: "Cultural or media lead — not classified as an event venue." };
+  if (large.test(text)) return { class: "stadium or major event venue", score: 100, note: "Large-format venue lead for headline-scale programming; capacity and availability still require verification." };
+  if (music.test(text)) return { class: "concert or performance venue", score: 75, note: "Performance venue lead; capacity, dates, and production requirements require verification." };
+  if (flexible.test(text)) return { class: "flexible event space", score: 45, note: "Potential event space; confirm whether it can support the requested audience and production scale." };
+  return { class: "unclassified place", score: 0, note: "Qloo cultural place lead; venue type and event suitability require verification." };
+}
+function rankPlaces(places, brief) {
+  return [...places].map(place => ({ place, fit: placeFit(place, brief) })).sort((a, b) => b.fit.score - a.fit.score);
+}
+function evidence(entity, fit) { return entity ? { id: entity.id, name: entity.name, domain: entity.domain, affinity: entity.affinity, address: entity.address, venueClass: fit?.class || null, venueNote: fit?.note || null } : null; }
 
 export function composeConcepts(brief, research, mode) {
-  const places = research.domains.place || [];
+  const rankedPlaces = rankPlaces(research.domains.place || [], brief);
+  const places = rankedPlaces.map(item => item.place);
+  const primaryPlace = rankedPlaces[0]?.place || null;
+  const primaryFit = rankedPlaces[0]?.fit;
   const brands = research.domains.brand || [];
   const artists = research.domains.artist || [];
   return strategies.map((strategy, index) => {
-    const place = select(places, index);
+    const place = primaryPlace;
     const brand = select(brands, index + (strategy.key === "twist" ? 1 : 0));
     const artist = select(artists, index);
     const title = strategy.key === "closest" ? `${research.anchor.name}: ${strategy.title}` : strategy.title;
@@ -39,8 +57,9 @@ export function composeConcepts(brief, research, mode) {
       strategy: strategy.label,
       title,
       hook: `${strategy.premise} Built for ${brief.audience} in ${brief.city}.`,
-      venue: place?.name || `A character-rich venue in ${brief.city}`,
-      venueNote: place?.address || "Venue availability requires verification.",
+      venue: primaryPlace?.name || `Venue shortlist required in ${brief.city}`,
+      venueNote: primaryPlace?.address || "Address pending",
+      venueFit: primaryPlace ? primaryFit.note : "Qloo did not return a venue-classified place. Source a stadium, arena, or event center before committing.",
       partners: [brand?.name, artist?.name].filter(Boolean),
       experience: [
         `Arrival: a designed threshold that introduces the world of ${research.anchor.name}.`,
@@ -50,7 +69,7 @@ export function composeConcepts(brief, research, mode) {
       whyItWorks: mode === "live"
         ? `Qloo connected ${research.anchor.name} to the displayed ${[place?.name, brand?.name, artist?.name].filter(Boolean).join(", ")} research leads. Encore used those leads to form a coherent ${strategy.label.toLowerCase()} concept for the stated objective: ${brief.objective}`
         : `Encore combined the illustrative ${[place?.name, brand?.name, artist?.name].filter(Boolean).join(", ")} sample leads into a ${strategy.label.toLowerCase()} concept for the stated objective: ${brief.objective}`,
-      evidence: [evidence(place), evidence(brand), evidence(artist)].filter(Boolean),
+      evidence: [evidence(primaryPlace, primaryFit), evidence(brand), evidence(artist)].filter(Boolean),
       caveat: "Affinity supports creative research. Availability, commercial fit, rights, pricing, and partner interest remain unverified.",
       mode
     };

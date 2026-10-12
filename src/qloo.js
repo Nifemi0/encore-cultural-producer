@@ -20,6 +20,7 @@ export function normalizeEntity(item, domain = "entity") {
     affinity: item?.query?.affinity ?? item?.affinity ?? null,
     popularity: properties?.popularity ?? null,
     url: properties?.website || properties?.url || null
+    ,categoryText: [entity?.name, properties?.description, properties?.category, properties?.categories, properties?.type, properties?.subtype].flat().filter(Boolean).join(" ")
   };
 }
 

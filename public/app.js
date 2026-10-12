@@ -64,6 +64,8 @@ function renderConcepts(result) {
     node.querySelector("h3").textContent = concept.title;
     node.querySelector(".hook").textContent = concept.hook;
     node.querySelector(".venue").textContent = `${concept.venue} · ${concept.venueNote}`;
+    const fitNote = node.querySelector(".venue-fit");
+    if (fitNote) fitNote.textContent = concept.venueFit || "Venue classification requires verification.";
     const experience = node.querySelector(".experience");
     concept.experience.forEach(item => { const p=document.createElement("p"); p.textContent=item; experience.append(p); });
     const evidenceList = node.querySelector(".evidence-list");
