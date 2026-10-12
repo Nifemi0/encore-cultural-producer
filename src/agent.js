@@ -43,12 +43,12 @@ function evidence(entity, fit) { return entity ? { id: entity.id, name: entity.n
 export function composeConcepts(brief, research, mode) {
   const rankedPlaces = rankPlaces(research.domains.place || [], brief);
   const places = rankedPlaces.map(item => item.place);
-  const primaryPlace = rankedPlaces[0]?.place || null;
-  const primaryFit = rankedPlaces[0]?.fit;
   const brands = research.domains.brand || [];
   const artists = research.domains.artist || [];
   return strategies.map((strategy, index) => {
-    const place = primaryPlace;
+    const ranked = rankedPlaces[index] || rankedPlaces[0];
+    const place = ranked?.place || null;
+    const placeFitResult = ranked?.fit;
     const brand = select(brands, index + (strategy.key === "twist" ? 1 : 0));
     const artist = select(artists, index);
     const title = strategy.key === "closest" ? `${research.anchor.name}: ${strategy.title}` : strategy.title;
@@ -57,9 +57,9 @@ export function composeConcepts(brief, research, mode) {
       strategy: strategy.label,
       title,
       hook: `${strategy.premise} Built for ${brief.audience} in ${brief.city}.`,
-      venue: primaryPlace?.name || `Venue shortlist required in ${brief.city}`,
-      venueNote: primaryPlace?.address || "Address pending",
-      venueFit: primaryPlace ? primaryFit.note : "Qloo did not return a venue-classified place. Source a stadium, arena, or event center before committing.",
+      venue: place?.name || `Venue shortlist required in ${brief.city}`,
+      venueNote: place?.address || "Address pending",
+      venueFit: place ? placeFitResult.note : "Qloo did not return a venue-classified place. Source a stadium, arena, or event center before committing.",
       partners: [brand?.name, artist?.name].filter(Boolean),
       experience: [
         `Arrival: a designed threshold that introduces the world of ${research.anchor.name}.`,
@@ -69,7 +69,7 @@ export function composeConcepts(brief, research, mode) {
       whyItWorks: mode === "live"
         ? `Qloo connected ${research.anchor.name} to the displayed ${[place?.name, brand?.name, artist?.name].filter(Boolean).join(", ")} research leads. Encore used those leads to form a coherent ${strategy.label.toLowerCase()} concept for the stated objective: ${brief.objective}`
         : `Encore combined the illustrative ${[place?.name, brand?.name, artist?.name].filter(Boolean).join(", ")} sample leads into a ${strategy.label.toLowerCase()} concept for the stated objective: ${brief.objective}`,
-      evidence: [evidence(primaryPlace, primaryFit), evidence(brand), evidence(artist)].filter(Boolean),
+      evidence: [evidence(place, placeFitResult), evidence(brand), evidence(artist)].filter(Boolean),
       caveat: "Affinity supports creative research. Availability, commercial fit, rights, pricing, and partner interest remain unverified.",
       mode
     };
