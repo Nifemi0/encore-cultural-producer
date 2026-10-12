@@ -18,3 +18,10 @@ test("flagship briefs do not promote cultural leads as venues",()=>{
   assert.ok(concepts.every(concept=>concept.venue.startsWith("Major venue shortlist required")));
   assert.ok(concepts.every(concept=>concept.evidence.every(item=>item.name!=="Beat 99.9FM")));
 });
+test("flagship briefs reject culinary clubs even when metadata calls them performance venues",()=>{
+  const brief=validateBrief({...input,budget:"Flagship",objective:"Design a flagship premiere"});
+  const research={anchor:{id:"a",name:"Black Panther",domain:"movie"},domains:{place:[{id:"p",name:"SA Culinary Club",domain:"place",description:"Performance venue for private events",address:"Johannesburg"}],brand:[],artist:[]}};
+  const concepts=composeConcepts(brief,research,"live");
+  assert.ok(concepts.every(concept=>concept.venue.startsWith("Major venue shortlist required")));
+  assert.ok(concepts.every(concept=>concept.evidence.every(item=>item.name!=="SA Culinary Club")));
+});

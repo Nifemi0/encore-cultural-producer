@@ -87,7 +87,7 @@ function renderTrail(result) {
 }
 
 form.addEventListener("submit", async event => {
-  event.preventDefault(); setError(""); dossierSection.classList.add("hidden"); conceptSection.classList.add("hidden");
+  event.preventDefault(); setError(""); latestResult=null; latestDossier=null; conceptGrid.replaceChildren(); researchSection.classList.add("hidden"); dossierSection.classList.add("hidden"); conceptSection.classList.add("hidden");
   submitButton.disabled=true; submitButton.querySelector("span").textContent="Encore is investigating…";
   const data=Object.fromEntries(new FormData(form)); data.sampleMode=sampleToggle.checked;
   try { latestResult=await json("/api/concepts",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify(data)}); renderTrail(latestResult); renderConcepts(latestResult); }

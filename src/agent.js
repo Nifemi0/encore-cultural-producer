@@ -24,12 +24,14 @@ export function validateBrief(input) {
 
 function select(items, index) { return items.length ? items[index % items.length] : null; }
 function placeFit(place, brief) {
+  const name = `${place?.name || ""}`.toLowerCase();
   const text = `${place?.name || ""} ${place?.description || ""} ${place?.categoryText || ""}`.toLowerCase();
-  const exclusions = /radio|fm|broadcast|clinic|hospital|bank|office|investment|school|university|church|mosque|restaurant|cafe|salon|visa|embassy|consulate|apartment|residence|spa|application center|application centre/;
+  const nameExclusions = /culinary|kitchen|restaurant|cafe|bistro|brasserie|bar(?:\s|$)|radio|fm(?:\s|$)|clinic|hospital|bank|office|school|university|church|mosque|salon|visa|embassy|consulate|apartment|residence|spa/;
+  const exclusions = /radio|fm|broadcast|clinic|hospital|bank|office|investment|school|university|church|mosque|restaurant|cafe|culinary|kitchen|bistro|brasserie|salon|visa|embassy|consulate|apartment|residence|spa|application center|application centre/;
   const large = /stadium|arena|event ?center|event ?centre|convention|expo|exhibition|amphitheatre|amphitheater|coliseum|sports complex|sports ground|festival ground/;
   const music = /concert hall|auditorium|theatre|theater|music hall|live music|performance venue/;
   const flexible = /hotel|rooftop|club|lounge|gallery|cultural center|cultural centre|park|beach/;
-  if (exclusions.test(text)) return { class: "cultural lead", score: -20, note: "Cultural or media lead — not classified as an event venue." };
+  if (nameExclusions.test(name) || exclusions.test(text)) return { class: "cultural lead", score: -20, note: "Cultural or media lead — not classified as an event venue." };
   if (large.test(text)) return { class: "stadium or major event venue", score: 100, note: "Large-format venue lead for headline-scale programming; capacity and availability still require verification." };
   if (music.test(text)) return { class: "concert or performance venue", score: 75, note: "Performance venue lead; capacity, dates, and production requirements require verification." };
   if (flexible.test(text)) return { class: "flexible event space", score: 45, note: "Potential event space; confirm whether it can support the requested audience and production scale." };
@@ -89,8 +91,9 @@ export async function createConcepts(input, config, fetcher = fetch) {
     trail.push("Loaded clearly labeled sample evidence", "Composed three strategy-distinct concepts");
   } else {
     if (!config.apiKey) throw new AppError("Live Qloo mode needs QLOO_API_KEY. Use sample mode to review the product flow.", 503);
-    const anchor = await resolveAnchor(brief.anchor, config, fetcher);
+    let anchor = await resolveAnchor(brief.anchor, config, fetcher);
     if (!anchor) throw new AppError(`Qloo could not resolve “${brief.anchor}”. Try a better-known artist, film, game, or brand.`, 422);
+    if (anchor.name?.toLowerCase() === brief.anchor.toLowerCase()) anchor = { ...anchor, name: brief.anchor };
     trail.push(`Resolved ${anchor.name} in Qloo`);
     const [place, brand, artist] = await Promise.all([
       discoverDomain(anchor.id, brief.city, "place", config, fetcher),
