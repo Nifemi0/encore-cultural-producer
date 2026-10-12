@@ -1,6 +1,16 @@
 import { AppError } from "./errors.js";
 
 const DEFAULT_BASE = "https://hackathon.api.qloo.com";
+const CACHE_TTL_MS = 10 * 60 * 1000;
+const responseCache = new Map();
+const inFlight = new Map();
+
+function pause(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
+
+export function clearQlooCache() {
+  responseCache.clear();
+  inFlight.clear();
+}
 
 export function entityList(payload) {
   const candidates = [payload?.results, payload?.results?.entities, payload?.entities, payload?.data?.results, payload?.data?.results?.entities, payload?.data?.entities];
@@ -30,17 +40,43 @@ async function request(pathname, params, config, fetcher = fetch) {
   for (const [key, value] of Object.entries(params)) {
     if (value !== undefined && value !== null && value !== "") url.searchParams.set(key, String(value));
   }
-  let response;
-  try {
-    response = await fetcher(url, {
-      headers: { "X-Api-Key": config.apiKey, Accept: "application/json" },
-      signal: AbortSignal.timeout(15_000)
-    });
-  } catch {
-    throw new AppError("Qloo could not be reached. Try again shortly.", 502);
-  }
-  if (!response.ok) throw new AppError(`Qloo returned ${response.status}. Check the event key and inputs.`, 502);
-  return response.json();
+  const cacheKey = url.toString();
+  const cached = responseCache.get(cacheKey);
+  if (cached && cached.expiresAt > Date.now()) return cached.value;
+  if (cached) responseCache.delete(cacheKey);
+  if (inFlight.has(cacheKey)) return inFlight.get(cacheKey);
+
+  const pending = (async () => {
+    let response;
+    for (let attempt = 0; attempt < 3; attempt += 1) {
+      try {
+        response = await fetcher(url, {
+          headers: { "X-Api-Key": config.apiKey, Accept: "application/json" },
+          signal: AbortSignal.timeout(15_000)
+        });
+      } catch {
+        if (attempt === 2) throw new AppError("Qloo could not be reached. Try again shortly.", 502);
+        await pause((config.retryDelayMs ?? 800) * (attempt + 1));
+        continue;
+      }
+      if (response.status !== 429) break;
+      if (attempt === 2) throw new AppError("Qloo is temporarily rate-limited. Wait a moment and try again.", 429);
+      const retryAfter = Number(response.headers?.get?.("retry-after"));
+      const delay = Number.isFinite(retryAfter) && retryAfter > 0 ? Math.min(retryAfter * 1000, 5000) : (config.retryDelayMs ?? 800) * (attempt + 1);
+      await pause(delay);
+    }
+    if (!response.ok) {
+      if (response.status === 401) throw new AppError("Qloo authorization failed. Check the event key.", 502);
+      if (response.status === 400) throw new AppError("Qloo could not interpret this anchor or location. Try a specific artist, film, game, or brand.", 422);
+      throw new AppError(`Qloo returned ${response.status}. Try again shortly.`, 502);
+    }
+    const value = await response.json();
+    responseCache.set(cacheKey, { value, expiresAt: Date.now() + (config.cacheTtlMs ?? CACHE_TTL_MS) });
+    return value;
+  })();
+  inFlight.set(cacheKey, pending);
+  try { return await pending; }
+  finally { inFlight.delete(cacheKey); }
 }
 
 export async function resolveAnchor(query, config, fetcher) {

@@ -25,7 +25,7 @@ export function validateBrief(input) {
 function select(items, index) { return items.length ? items[index % items.length] : null; }
 function placeFit(place, brief) {
   const text = `${place?.name || ""} ${place?.description || ""} ${place?.categoryText || ""}`.toLowerCase();
-  const exclusions = /radio|fm|broadcast|clinic|hospital|bank|office|investment|school|university|church|mosque|restaurant|cafe|salon/;
+  const exclusions = /radio|fm|broadcast|clinic|hospital|bank|office|investment|school|university|church|mosque|restaurant|cafe|salon|visa|embassy|consulate|apartment|residence|spa|application center|application centre/;
   const large = /stadium|arena|event ?center|event ?centre|convention|expo|exhibition|amphitheatre|amphitheater|coliseum|sports complex|sports ground|festival ground/;
   const music = /concert hall|auditorium|theatre|theater|music hall|live music|performance venue/;
   const flexible = /hotel|rooftop|club|lounge|gallery|cultural center|cultural centre|park|beach/;
@@ -112,7 +112,7 @@ export function buildDossier(input) {
     status: concept.mode === "live" ? "Qloo-grounded draft" : "Sample-mode draft",
     brief: { city: brief.city, audience: brief.audience, objective: brief.objective, budget: brief.budget, format: brief.format, constraints: brief.constraints || "None supplied" },
     guestJourney: concept.experience,
-    partnerRoles: concept.evidence.map((item, index) => ({ name: item.name, role: index === 0 ? "Host environment" : index === 1 ? "Material and product collaborator" : "Sound and performance collaborator", verification: "Research lead — contact and participation unconfirmed" })),
+    partnerRoles: concept.evidence.map((item, index) => ({ name: item.name, role: index === 0 ? "Possible host environment" : index === 1 ? "Possible brand collaborator" : "Possible sound collaborator", verification: "Research lead — contact, suitability, and participation unconfirmed" })),
     productionPriorities: ["Verify venue capacity, access, availability, and licensing.", "Confirm the anchor property’s promotional and intellectual-property permissions.", "Contact proposed partners with a tailored collaboration hypothesis.", "Price the centerpiece before expanding secondary programming."],
     promotionAngles: [`${concept.title}: one night in ${brief.city}`, `A local interpretation of ${brief.anchor}`, "The collaboration you would not expect, backed by cultural affinity"],
     evidence: concept.evidence,
