@@ -1,17 +1,17 @@
 # Encore readiness review
 
-Reviewed on October 8, 2026 against the four equally weighted Qloo judging criteria.
+Updated on October 12, 2026. The previously recorded four Qloo judging criteria could not be re-fetched because the connected Devpost service returned an internal availability error.
 
 ## Current verdict
 
-Encore has a strong, differentiated product frame, a polished interface, and a verified live Qloo path. It is not submission-ready until deployment and the public repository are verified.
+Encore has a differentiated product frame, a polished public interface, and a verified live Qloo path. The build packet is ready for submission preparation, but the final Devpost action must wait until the current official requirements, registration status, and custom fields are fetched successfully.
 
 ## Judge-facing assessment
 
 | Criterion | Current assessment | Evidence | Main gap |
 | --- | --- | --- | --- |
-| Technological implementation | Strong local build | Server-side Qloo client, verified live search and Insights pipeline, three-strategy composer, evidence ledger, dossier builder, automated tests | Public deployment remains unverified |
-| Design | Strong | Clear brief studio, visible research trail, distinct concept board, production-ready dossier, responsive interface | Needs final mobile and deployed-browser check |
+| Technological implementation | Strong public build | Server-side Qloo client, verified live search and Insights pipeline, three-strategy composer, evidence ledger, dossier builder, automated tests | Cultural reranking remains deterministic |
+| Design | Strong | Clear brief studio, visible research trail, distinct concept board, production dossier, responsive interface | Final submission screenshots remain to be captured |
 | Potential impact | Credible | Converts cultural research into a concrete agency workflow with verification steps and production priorities | Needs one or two real producer reactions or a concise use-case proof |
 | Quality of idea | Strong | Moves beyond recommendation into creative strategy and activation planning; Qloo is central to discovery | Live results must show enough variety to prove the idea consistently |
 
@@ -40,10 +40,9 @@ Encore has a strong, differentiated product frame, a polished interface, and a v
 
 ## Submission blockers
 
-- Public deployment is not created.
-- Public open-source repository is not published.
-- Demo screenshots and submission video are not prepared.
-- Devpost project entry is not created.
+- Current official Devpost requirements, judging criteria, dates, and registration status are not available in this session.
+- Final submission screenshots and thumbnail are not prepared.
+- The Devpost project entry has not been verified or updated.
 
 ## Product risks to watch
 

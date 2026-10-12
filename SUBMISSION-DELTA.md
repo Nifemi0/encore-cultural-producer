@@ -14,3 +14,14 @@
 - Added tests, claims ledger, rules ledger, and testing-status documentation.
 - Created a private Notion build entry: https://app.notion.com/p/3f0a2d5031c4813ebaa5ebb7bf84f980?pvs=204
 - Live Qloo verification, deployment, public repository publishing, screenshots, and Devpost submission remain outstanding.
+
+## October 12, 2026
+
+- Published the public repository and production deployment.
+- Added caching, duplicate-request coalescing, bounded retries, per-request timeouts, and an overall server deadline.
+- Tightened venue classification and required true large-format venues for flagship briefs.
+- Clarified that Qloo entities are research leads whose participation and suitability remain unconfirmed.
+- Completed a ten-scenario live Chrome retest and documented cultural-fit failures honestly.
+- Increased the automated suite to 15 passing tests.
+- Updated the Notion project record and prepared `devpost-submission.md`.
+- Current Devpost requirements, registration, and custom fields remain pending because the connected Devpost service returned an internal availability error.
