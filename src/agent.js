@@ -42,11 +42,13 @@ function evidence(entity, fit) { return entity ? { id: entity.id, name: entity.n
 
 export function composeConcepts(brief, research, mode) {
   const rankedPlaces = rankPlaces(research.domains.place || [], brief);
-  const places = rankedPlaces.map(item => item.place);
+  const requiresLargeVenue = brief.budget === "Flagship" || /headline-scale|major live event|stadium|arena|large concert|concert location/i.test(brief.objective);
+  const minimumVenueScore = requiresLargeVenue ? 75 : 40;
+  const eligiblePlaces = rankedPlaces.filter(item => item.fit.score >= minimumVenueScore);
   const brands = research.domains.brand || [];
   const artists = research.domains.artist || [];
   return strategies.map((strategy, index) => {
-    const ranked = rankedPlaces[index] || rankedPlaces[0];
+    const ranked = eligiblePlaces[index] || null;
     const place = ranked?.place || null;
     const placeFitResult = ranked?.fit;
     const brand = select(brands, index + (strategy.key === "twist" ? 1 : 0));
@@ -57,9 +59,9 @@ export function composeConcepts(brief, research, mode) {
       strategy: strategy.label,
       title,
       hook: `${strategy.premise} Built for ${brief.audience} in ${brief.city}.`,
-      venue: place?.name || `Venue shortlist required in ${brief.city}`,
-      venueNote: place?.address || "Address pending",
-      venueFit: place ? placeFitResult.note : "Qloo did not return a venue-classified place. Source a stadium, arena, or event center before committing.",
+      venue: place?.name || `${requiresLargeVenue ? "Major venue" : "Venue"} shortlist required in ${brief.city}`,
+      venueNote: place?.address || "No suitable venue returned by Qloo",
+      venueFit: place ? placeFitResult.note : requiresLargeVenue ? "Source and verify a stadium, arena, concert hall, or major event center before committing." : "Source and verify an event-ready venue before committing.",
       partners: [brand?.name, artist?.name].filter(Boolean),
       experience: [
         `Arrival: a designed threshold that introduces the world of ${research.anchor.name}.`,
