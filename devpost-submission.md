@@ -102,6 +102,8 @@ Optional 90-second outline:
 
 ## Screenshot Shot List
 
+Chrome captures reviewed on October 12, 2026: landing hero, live Wizkid concept board, and selected activation dossier. These captures are visible in the build session but have not been uploaded to Devpost because the connected submission service is unavailable.
+
 1. Landing hero and Qloo-powered product thesis.
 2. Completed creative brief before generation.
 3. Three-direction concept board with live Qloo evidence and a major-venue fallback.

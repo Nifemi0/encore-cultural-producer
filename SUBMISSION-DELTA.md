@@ -24,4 +24,5 @@
 - Completed a ten-scenario live Chrome retest and documented cultural-fit failures honestly.
 - Increased the automated suite to 15 passing tests.
 - Updated the Notion project record and prepared `devpost-submission.md`.
+- Captured and reviewed the landing hero, live Qloo concept board, and activation dossier in Chrome for the submission shot list.
 - Current Devpost requirements, registration, and custom fields remain pending because the connected Devpost service returned an internal availability error.
