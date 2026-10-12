@@ -1,0 +1,16 @@
+{
+  "endpoint": "https://encore.nuvixes.studio",
+  "generatedAt": "2026-10-12T19:46:46.102Z",
+  "total": 100,
+  "httpPass": 2,
+  "liveMode": 2,
+  "verdictPass": 0,
+  "review": 2,
+  "failures": 98,
+  "flagCounts": {
+    "Qloo returned 429. Check the event key and inputs.": 98,
+    "1 location lead(s) need venue verification": 1,
+    "2 location lead(s) need venue verification": 1
+  },
+  "averageDurationMs": 573
+}

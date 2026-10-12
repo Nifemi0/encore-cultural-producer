@@ -1,0 +1,1687 @@
+{
+  "summary": {
+    "endpoint": "https://encore.nuvixes.studio",
+    "generatedAt": "2026-10-12T19:54:07.873Z",
+    "total": 10,
+    "httpPass": 10,
+    "liveMode": 10,
+    "verdictPass": 6,
+    "review": 4,
+    "failures": 0,
+    "flagCounts": {
+      "1 location lead(s) need venue verification": 3,
+      "3 location lead(s) need venue verification": 1
+    },
+    "averageDurationMs": 3951
+  },
+  "results": [
+    {
+      "id": "S001",
+      "anchor": "Wizkid",
+      "city": "Lagos",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "sampleMode": false,
+      "index": 0,
+      "httpStatus": 200,
+      "mode": "live",
+      "durationMs": 3936,
+      "trail": [
+        "Brief interpreted",
+        "Anchor resolution planned",
+        "Cross-domain discovery planned",
+        "Resolved Wizkid in Qloo",
+        "Compared 24 Qloo entities",
+        "Composed three strategy-distinct concepts"
+      ],
+      "concepts": [
+        {
+          "strategy": "Closest fit",
+          "title": "Wizkid: Signal Room",
+          "venue": "GLITZ Event Centre at lekki",
+          "venueNote": "Block 2 Plot 2 Okunde Blue Water Zone, Off Remi Olowude Street, Lekki 2n Plot 14 The Providence St Lekki Phase 1 Lekki 106104, Lagos, Nigeria",
+          "venueFit": "Large-format venue lead for headline-scale programming; capacity and availability still require verification.",
+          "evidence": [
+            {
+              "id": "F83A5862-7731-4207-8EBA-4EB4E8FAC99A",
+              "name": "GLITZ Event Centre at lekki",
+              "domain": "place",
+              "affinity": 0.9786334271832106,
+              "address": "Block 2 Plot 2 Okunde Blue Water Zone, Off Remi Olowude Street, Lekki 2n Plot 14 The Providence St Lekki Phase 1 Lekki 106104, Lagos, Nigeria",
+              "venueClass": "stadium or major event venue",
+              "venueNote": "Large-format venue lead for headline-scale programming; capacity and availability still require verification."
+            },
+            {
+              "id": "25255993-75ED-4735-AEB1-E767E3801717",
+              "name": "Pulse Ng",
+              "domain": "brand",
+              "affinity": 0.9896118511896559,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "9145683D-230A-45DF-9BF1-24F8F345FB3C",
+              "name": "Starboy",
+              "domain": "artist",
+              "affinity": 0.9795203767978797,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Turn the anchor’s strongest cultural signals into an intimate, high-confidence experience. Built for core fans and culture-forward young adults in Lagos.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed GLITZ Event Centre at lekki, Pulse Ng, Starboy research leads. Encore used those leads to form a coherent closest fit concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Cultural bridge",
+          "title": "Common Ground",
+          "venue": "Radisson Blu Anchorage Hotel, Lagos, V.I.",
+          "venueNote": "1a Ozumba Mbadiwe Ave Victoria Island Lagos 101241 Lagos, Nigeria",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "C777EF73-8251-492E-87C6-5CE3D59A2948",
+              "name": "Radisson Blu Anchorage Hotel, Lagos, V.I.",
+              "domain": "place",
+              "affinity": 0.9795190552910401,
+              "address": "1a Ozumba Mbadiwe Ave Victoria Island Lagos 101241 Lagos, Nigeria",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "628DE8B7-4D77-4CF0-A7A2-EE8BF6BAC541",
+              "name": "Guaranty Trust Bank",
+              "domain": "brand",
+              "affinity": 0.9760860177856419,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "ABD3F8E2-6A70-406B-AB76-7F3F85609201",
+              "name": "Davido",
+              "domain": "artist",
+              "affinity": 0.9794033776770756,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Connect two adjacent audiences through a shared place, sound, and ritual. Built for core fans and culture-forward young adults in Lagos.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Radisson Blu Anchorage Hotel, Lagos, V.I., Guaranty Trust Bank, Davido research leads. Encore used those leads to form a coherent cultural bridge concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Plot twist",
+          "title": "The Beautiful Collision",
+          "venue": "Lekki Leisure",
+          "venueNote": "CFF6+FVW Lekki Leisure Lake, Adekunle Animashaun Drive, Marwa, Off Lekki Phase 1, Lekki Adekunle Animashaun Dr Eti-Osa, Lagos 106104, Lagos, Nigeria",
+          "venueFit": "Qloo cultural place lead; venue type and event suitability require verification.",
+          "evidence": [
+            {
+              "id": "4D73E983-3098-4934-B227-928C4658409D",
+              "name": "Lekki Leisure",
+              "domain": "place",
+              "affinity": 0.9798172042937041,
+              "address": "CFF6+FVW Lekki Leisure Lake, Adekunle Animashaun Drive, Marwa, Off Lekki Phase 1, Lekki Adekunle Animashaun Dr Eti-Osa, Lagos 106104, Lagos, Nigeria",
+              "venueClass": "unclassified place",
+              "venueNote": "Qloo cultural place lead; venue type and event suitability require verification."
+            },
+            {
+              "id": "C16EA424-AD40-4DE7-AC90-A9B445F5660B",
+              "name": "Travelbeta.com",
+              "domain": "brand",
+              "affinity": 0.9613492439845006,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "E7096B50-EE00-4A60-86E3-231F82115031",
+              "name": "Mr Eazi",
+              "domain": "artist",
+              "affinity": 0.9758610205453321,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Use a less obvious affinity to create a collaboration people will want to explain to someone else. Built for core fans and culture-forward young adults in Lagos.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Lekki Leisure, Travelbeta.com, Mr Eazi research leads. Encore used those leads to form a coherent plot twist concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        }
+      ],
+      "evaluation": {
+        "venueClasses": [
+          "stadium or major event venue",
+          "flexible event space",
+          "unclassified place"
+        ],
+        "venueNotes": [
+          "Large-format venue lead for headline-scale programming; capacity and availability still require verification.",
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Qloo cultural place lead; venue type and event suitability require verification."
+        ],
+        "partnerNames": [
+          "Pulse Ng",
+          "Starboy",
+          "Guaranty Trust Bank",
+          "Davido",
+          "Travelbeta.com",
+          "Mr Eazi"
+        ],
+        "emotionCovered": true,
+        "largeScaleRequested": false,
+        "hasLargeVenue": true,
+        "culturalLeadCount": 1,
+        "duplicateVenues": false,
+        "flags": [
+          "1 location lead(s) need venue verification"
+        ],
+        "verdict": "review"
+      }
+    },
+    {
+      "id": "S011",
+      "anchor": "Wizkid",
+      "city": "Accra",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "sampleMode": false,
+      "index": 1,
+      "httpStatus": 200,
+      "mode": "live",
+      "durationMs": 3609,
+      "trail": [
+        "Brief interpreted",
+        "Anchor resolution planned",
+        "Cross-domain discovery planned",
+        "Resolved Wizkid in Qloo",
+        "Compared 24 Qloo entities",
+        "Composed three strategy-distinct concepts"
+      ],
+      "concepts": [
+        {
+          "strategy": "Closest fit",
+          "title": "Wizkid: Signal Room",
+          "venue": "Villa Monticello Lounge & Bar",
+          "venueNote": "1A Mankata Ave Accra Ghana",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "7A62C66F-E623-4A31-BB92-C2F92363C579",
+              "name": "Villa Monticello Lounge & Bar",
+              "domain": "place",
+              "affinity": 0.9348224561214985,
+              "address": "1A Mankata Ave Accra Ghana",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "25255993-75ED-4735-AEB1-E767E3801717",
+              "name": "Pulse Ng",
+              "domain": "brand",
+              "affinity": 0.9896118511896559,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "9145683D-230A-45DF-9BF1-24F8F345FB3C",
+              "name": "Starboy",
+              "domain": "artist",
+              "affinity": 0.9795203767978797,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Turn the anchor’s strongest cultural signals into an intimate, high-confidence experience. Built for core fans and culture-forward young adults in Accra.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Villa Monticello Lounge & Bar, Pulse Ng, Starboy research leads. Encore used those leads to form a coherent closest fit concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Cultural bridge",
+          "title": "Common Ground",
+          "venue": "Cantonments Crescent",
+          "venueNote": "Cantonments Cres Accra Ghana",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "5958993B-C508-441D-BC3B-5839B188EC8F",
+              "name": "Cantonments Crescent",
+              "domain": "place",
+              "affinity": 0.9337098251831133,
+              "address": "Cantonments Cres Accra Ghana",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "628DE8B7-4D77-4CF0-A7A2-EE8BF6BAC541",
+              "name": "Guaranty Trust Bank",
+              "domain": "brand",
+              "affinity": 0.9760860177856419,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "ABD3F8E2-6A70-406B-AB76-7F3F85609201",
+              "name": "Davido",
+              "domain": "artist",
+              "affinity": 0.9794033776770756,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Connect two adjacent audiences through a shared place, sound, and ritual. Built for core fans and culture-forward young adults in Accra.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Cantonments Crescent, Guaranty Trust Bank, Davido research leads. Encore used those leads to form a coherent cultural bridge concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Plot twist",
+          "title": "The Beautiful Collision",
+          "venue": "Urbano Hotel",
+          "venueNote": "HR79+XHR Oxford St Accra Ghana",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "77B3520B-F954-4755-B52D-AEB66C057B39",
+              "name": "Urbano Hotel",
+              "domain": "place",
+              "affinity": 0.9287101464242471,
+              "address": "HR79+XHR Oxford St Accra Ghana",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "C16EA424-AD40-4DE7-AC90-A9B445F5660B",
+              "name": "Travelbeta.com",
+              "domain": "brand",
+              "affinity": 0.9613492439845006,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "E7096B50-EE00-4A60-86E3-231F82115031",
+              "name": "Mr Eazi",
+              "domain": "artist",
+              "affinity": 0.9758610205453321,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Use a less obvious affinity to create a collaboration people will want to explain to someone else. Built for core fans and culture-forward young adults in Accra.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Urbano Hotel, Travelbeta.com, Mr Eazi research leads. Encore used those leads to form a coherent plot twist concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        }
+      ],
+      "evaluation": {
+        "venueClasses": [
+          "flexible event space",
+          "flexible event space",
+          "flexible event space"
+        ],
+        "venueNotes": [
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Potential event space; confirm whether it can support the requested audience and production scale."
+        ],
+        "partnerNames": [
+          "Pulse Ng",
+          "Starboy",
+          "Guaranty Trust Bank",
+          "Davido",
+          "Travelbeta.com",
+          "Mr Eazi"
+        ],
+        "emotionCovered": true,
+        "largeScaleRequested": false,
+        "hasLargeVenue": false,
+        "culturalLeadCount": 0,
+        "duplicateVenues": false,
+        "flags": [],
+        "verdict": "pass"
+      }
+    },
+    {
+      "id": "S021",
+      "anchor": "Wizkid",
+      "city": "London",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "sampleMode": false,
+      "index": 2,
+      "httpStatus": 200,
+      "mode": "live",
+      "durationMs": 3428,
+      "trail": [
+        "Brief interpreted",
+        "Anchor resolution planned",
+        "Cross-domain discovery planned",
+        "Resolved Wizkid in Qloo",
+        "Compared 24 Qloo entities",
+        "Composed three strategy-distinct concepts"
+      ],
+      "concepts": [
+        {
+          "strategy": "Closest fit",
+          "title": "Wizkid: Signal Room",
+          "venue": "84 West Brasserie & Grill",
+          "venueNote": "82-84 Cricklewood Broadway London NW2 3EL United Kingdom",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "3A62E36D-BA7C-48F7-8C2E-A3CC0CC7002E",
+              "name": "84 West Brasserie & Grill",
+              "domain": "place",
+              "affinity": 0.8813031758474519,
+              "address": "82-84 Cricklewood Broadway London NW2 3EL United Kingdom",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "25255993-75ED-4735-AEB1-E767E3801717",
+              "name": "Pulse Ng",
+              "domain": "brand",
+              "affinity": 0.9896118511896559,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "9145683D-230A-45DF-9BF1-24F8F345FB3C",
+              "name": "Starboy",
+              "domain": "artist",
+              "affinity": 0.9795203767978797,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Turn the anchor’s strongest cultural signals into an intimate, high-confidence experience. Built for core fans and culture-forward young adults in London.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed 84 West Brasserie & Grill, Pulse Ng, Starboy research leads. Encore used those leads to form a coherent closest fit concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Cultural bridge",
+          "title": "Common Ground",
+          "venue": "ESQ Resto Lounge",
+          "venueNote": "817 Old Kent Rd London SE15 1NX United Kingdom",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "A7E54992-98A5-4469-BEF1-F1F2F7AE3424",
+              "name": "ESQ Resto Lounge",
+              "domain": "place",
+              "affinity": 0.8728883305917938,
+              "address": "817 Old Kent Rd London SE15 1NX United Kingdom",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "628DE8B7-4D77-4CF0-A7A2-EE8BF6BAC541",
+              "name": "Guaranty Trust Bank",
+              "domain": "brand",
+              "affinity": 0.9760860177856419,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "ABD3F8E2-6A70-406B-AB76-7F3F85609201",
+              "name": "Davido",
+              "domain": "artist",
+              "affinity": 0.9794033776770756,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Connect two adjacent audiences through a shared place, sound, and ritual. Built for core fans and culture-forward young adults in London.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed ESQ Resto Lounge, Guaranty Trust Bank, Davido research leads. Encore used those leads to form a coherent cultural bridge concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Plot twist",
+          "title": "The Beautiful Collision",
+          "venue": "280 Degrees",
+          "venueNote": "280 Kilburn High Rd London NW6 2BY United Kingdom",
+          "venueFit": "Qloo cultural place lead; venue type and event suitability require verification.",
+          "evidence": [
+            {
+              "id": "7ECC1773-199E-4F89-996D-DCEF1C23433E",
+              "name": "280 Degrees",
+              "domain": "place",
+              "affinity": 0.8704134644087596,
+              "address": "280 Kilburn High Rd London NW6 2BY United Kingdom",
+              "venueClass": "unclassified place",
+              "venueNote": "Qloo cultural place lead; venue type and event suitability require verification."
+            },
+            {
+              "id": "C16EA424-AD40-4DE7-AC90-A9B445F5660B",
+              "name": "Travelbeta.com",
+              "domain": "brand",
+              "affinity": 0.9613492439845006,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "E7096B50-EE00-4A60-86E3-231F82115031",
+              "name": "Mr Eazi",
+              "domain": "artist",
+              "affinity": 0.9758610205453321,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Use a less obvious affinity to create a collaboration people will want to explain to someone else. Built for core fans and culture-forward young adults in London.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed 280 Degrees, Travelbeta.com, Mr Eazi research leads. Encore used those leads to form a coherent plot twist concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        }
+      ],
+      "evaluation": {
+        "venueClasses": [
+          "flexible event space",
+          "flexible event space",
+          "unclassified place"
+        ],
+        "venueNotes": [
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Qloo cultural place lead; venue type and event suitability require verification."
+        ],
+        "partnerNames": [
+          "Pulse Ng",
+          "Starboy",
+          "Guaranty Trust Bank",
+          "Davido",
+          "Travelbeta.com",
+          "Mr Eazi"
+        ],
+        "emotionCovered": true,
+        "largeScaleRequested": false,
+        "hasLargeVenue": false,
+        "culturalLeadCount": 1,
+        "duplicateVenues": false,
+        "flags": [
+          "1 location lead(s) need venue verification"
+        ],
+        "verdict": "review"
+      }
+    },
+    {
+      "id": "S031",
+      "anchor": "Wizkid",
+      "city": "New York",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "sampleMode": false,
+      "index": 3,
+      "httpStatus": 200,
+      "mode": "live",
+      "durationMs": 7378,
+      "trail": [
+        "Brief interpreted",
+        "Anchor resolution planned",
+        "Cross-domain discovery planned",
+        "Resolved Wizkid in Qloo",
+        "Compared 24 Qloo entities",
+        "Composed three strategy-distinct concepts"
+      ],
+      "concepts": [
+        {
+          "strategy": "Closest fit",
+          "title": "Wizkid: Signal Room",
+          "venue": "TownePlace Suites by Marriott New York Long Island City/Manhattan View",
+          "venueNote": "38-42 11th St Queens, NY 11101",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "9C3789CC-5CBD-42CF-841C-B0059F7ECE0E",
+              "name": "TownePlace Suites by Marriott New York Long Island City/Manhattan View",
+              "domain": "place",
+              "affinity": 0.758032354704294,
+              "address": "38-42 11th St Queens, NY 11101",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "25255993-75ED-4735-AEB1-E767E3801717",
+              "name": "Pulse Ng",
+              "domain": "brand",
+              "affinity": 0.9896118511896559,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "9145683D-230A-45DF-9BF1-24F8F345FB3C",
+              "name": "Starboy",
+              "domain": "artist",
+              "affinity": 0.9795203767978797,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Turn the anchor’s strongest cultural signals into an intimate, high-confidence experience. Built for core fans and culture-forward young adults in New York.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed TownePlace Suites by Marriott New York Long Island City/Manhattan View, Pulse Ng, Starboy research leads. Encore used those leads to form a coherent closest fit concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Cultural bridge",
+          "title": "Common Ground",
+          "venue": "Aloft Manhattan Downtown - Financial District",
+          "venueNote": "49-53 Ann St New York, NY 10038",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "469BD076-BF8C-48FC-BBC0-B66C915915FF",
+              "name": "Aloft Manhattan Downtown - Financial District",
+              "domain": "place",
+              "affinity": 0.7459374421097329,
+              "address": "49-53 Ann St New York, NY 10038",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "628DE8B7-4D77-4CF0-A7A2-EE8BF6BAC541",
+              "name": "Guaranty Trust Bank",
+              "domain": "brand",
+              "affinity": 0.9760860177856419,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "ABD3F8E2-6A70-406B-AB76-7F3F85609201",
+              "name": "Davido",
+              "domain": "artist",
+              "affinity": 0.9794033776770756,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Connect two adjacent audiences through a shared place, sound, and ritual. Built for core fans and culture-forward young adults in New York.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Aloft Manhattan Downtown - Financial District, Guaranty Trust Bank, Davido research leads. Encore used those leads to form a coherent cultural bridge concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Plot twist",
+          "title": "The Beautiful Collision",
+          "venue": "Buka",
+          "venueNote": "1111 Fulton St Brooklyn, NY 11238",
+          "venueFit": "Qloo cultural place lead; venue type and event suitability require verification.",
+          "evidence": [
+            {
+              "id": "152FDD94-EE27-4193-813B-6D32996B3A24",
+              "name": "Buka",
+              "domain": "place",
+              "affinity": 0.7960401589902057,
+              "address": "1111 Fulton St Brooklyn, NY 11238",
+              "venueClass": "unclassified place",
+              "venueNote": "Qloo cultural place lead; venue type and event suitability require verification."
+            },
+            {
+              "id": "C16EA424-AD40-4DE7-AC90-A9B445F5660B",
+              "name": "Travelbeta.com",
+              "domain": "brand",
+              "affinity": 0.9613492439845006,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "E7096B50-EE00-4A60-86E3-231F82115031",
+              "name": "Mr Eazi",
+              "domain": "artist",
+              "affinity": 0.9758610205453321,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Use a less obvious affinity to create a collaboration people will want to explain to someone else. Built for core fans and culture-forward young adults in New York.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Buka, Travelbeta.com, Mr Eazi research leads. Encore used those leads to form a coherent plot twist concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        }
+      ],
+      "evaluation": {
+        "venueClasses": [
+          "flexible event space",
+          "flexible event space",
+          "unclassified place"
+        ],
+        "venueNotes": [
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Qloo cultural place lead; venue type and event suitability require verification."
+        ],
+        "partnerNames": [
+          "Pulse Ng",
+          "Starboy",
+          "Guaranty Trust Bank",
+          "Davido",
+          "Travelbeta.com",
+          "Mr Eazi"
+        ],
+        "emotionCovered": true,
+        "largeScaleRequested": false,
+        "hasLargeVenue": false,
+        "culturalLeadCount": 1,
+        "duplicateVenues": false,
+        "flags": [
+          "1 location lead(s) need venue verification"
+        ],
+        "verdict": "review"
+      }
+    },
+    {
+      "id": "S041",
+      "anchor": "Wizkid",
+      "city": "Los Angeles",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "sampleMode": false,
+      "index": 4,
+      "httpStatus": 200,
+      "mode": "live",
+      "durationMs": 3547,
+      "trail": [
+        "Brief interpreted",
+        "Anchor resolution planned",
+        "Cross-domain discovery planned",
+        "Resolved Wizkid in Qloo",
+        "Compared 24 Qloo entities",
+        "Composed three strategy-distinct concepts"
+      ],
+      "concepts": [
+        {
+          "strategy": "Closest fit",
+          "title": "Wizkid: Signal Room",
+          "venue": "JW Marriott Los Angeles L.A. LIVE",
+          "venueNote": "900 W Olympic Blvd Los Angeles, CA 90015",
+          "venueFit": "Large-format venue lead for headline-scale programming; capacity and availability still require verification.",
+          "evidence": [
+            {
+              "id": "C0828BD3-259C-4C5B-86A9-7A8EF8FD9B4C",
+              "name": "JW Marriott Los Angeles L.A. LIVE",
+              "domain": "place",
+              "affinity": 0.6413310297187739,
+              "address": "900 W Olympic Blvd Los Angeles, CA 90015",
+              "venueClass": "stadium or major event venue",
+              "venueNote": "Large-format venue lead for headline-scale programming; capacity and availability still require verification."
+            },
+            {
+              "id": "25255993-75ED-4735-AEB1-E767E3801717",
+              "name": "Pulse Ng",
+              "domain": "brand",
+              "affinity": 0.9896118511896559,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "9145683D-230A-45DF-9BF1-24F8F345FB3C",
+              "name": "Starboy",
+              "domain": "artist",
+              "affinity": 0.9795203767978797,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Turn the anchor’s strongest cultural signals into an intimate, high-confidence experience. Built for core fans and culture-forward young adults in Los Angeles.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed JW Marriott Los Angeles L.A. LIVE, Pulse Ng, Starboy research leads. Encore used those leads to form a coherent closest fit concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Cultural bridge",
+          "title": "Common Ground",
+          "venue": "Peppermint Club",
+          "venueNote": "8713 Beverly Blvd West Hollywood, CA 90048",
+          "venueFit": "Performance venue lead; capacity, dates, and production requirements require verification.",
+          "evidence": [
+            {
+              "id": "8558C86A-9026-4C6D-9A3C-6D64DDE155D4",
+              "name": "Peppermint Club",
+              "domain": "place",
+              "affinity": 0.6392302215922342,
+              "address": "8713 Beverly Blvd West Hollywood, CA 90048",
+              "venueClass": "concert or performance venue",
+              "venueNote": "Performance venue lead; capacity, dates, and production requirements require verification."
+            },
+            {
+              "id": "628DE8B7-4D77-4CF0-A7A2-EE8BF6BAC541",
+              "name": "Guaranty Trust Bank",
+              "domain": "brand",
+              "affinity": 0.9760860177856419,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "ABD3F8E2-6A70-406B-AB76-7F3F85609201",
+              "name": "Davido",
+              "domain": "artist",
+              "affinity": 0.9794033776770756,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Connect two adjacent audiences through a shared place, sound, and ritual. Built for core fans and culture-forward young adults in Los Angeles.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Peppermint Club, Guaranty Trust Bank, Davido research leads. Encore used those leads to form a coherent cultural bridge concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Plot twist",
+          "title": "The Beautiful Collision",
+          "venue": "Holiday Inn Los Angeles Gateway - Torrance by IHG",
+          "venueNote": "19800 S Vermont Ave Torrance, CA 90502",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "53584557-5B44-4E03-8EE0-8284952E9DDE",
+              "name": "Holiday Inn Los Angeles Gateway - Torrance by IHG",
+              "domain": "place",
+              "affinity": 0.6503561420197205,
+              "address": "19800 S Vermont Ave Torrance, CA 90502",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "C16EA424-AD40-4DE7-AC90-A9B445F5660B",
+              "name": "Travelbeta.com",
+              "domain": "brand",
+              "affinity": 0.9613492439845006,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "E7096B50-EE00-4A60-86E3-231F82115031",
+              "name": "Mr Eazi",
+              "domain": "artist",
+              "affinity": 0.9758610205453321,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Use a less obvious affinity to create a collaboration people will want to explain to someone else. Built for core fans and culture-forward young adults in Los Angeles.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Holiday Inn Los Angeles Gateway - Torrance by IHG, Travelbeta.com, Mr Eazi research leads. Encore used those leads to form a coherent plot twist concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        }
+      ],
+      "evaluation": {
+        "venueClasses": [
+          "stadium or major event venue",
+          "concert or performance venue",
+          "flexible event space"
+        ],
+        "venueNotes": [
+          "Large-format venue lead for headline-scale programming; capacity and availability still require verification.",
+          "Performance venue lead; capacity, dates, and production requirements require verification.",
+          "Potential event space; confirm whether it can support the requested audience and production scale."
+        ],
+        "partnerNames": [
+          "Pulse Ng",
+          "Starboy",
+          "Guaranty Trust Bank",
+          "Davido",
+          "Travelbeta.com",
+          "Mr Eazi"
+        ],
+        "emotionCovered": true,
+        "largeScaleRequested": false,
+        "hasLargeVenue": true,
+        "culturalLeadCount": 0,
+        "duplicateVenues": false,
+        "flags": [],
+        "verdict": "pass"
+      }
+    },
+    {
+      "id": "S051",
+      "anchor": "Wizkid",
+      "city": "Paris",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "sampleMode": false,
+      "index": 5,
+      "httpStatus": 200,
+      "mode": "live",
+      "durationMs": 3434,
+      "trail": [
+        "Brief interpreted",
+        "Anchor resolution planned",
+        "Cross-domain discovery planned",
+        "Resolved Wizkid in Qloo",
+        "Compared 24 Qloo entities",
+        "Composed three strategy-distinct concepts"
+      ],
+      "concepts": [
+        {
+          "strategy": "Closest fit",
+          "title": "Wizkid: Signal Room",
+          "venue": "Novotel Paris Suresnes Longchamp",
+          "venueNote": "7 Rue du Port aux Vins 92150 Suresnes France",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "208765FF-BEE2-47CA-9912-6BDAB39EA5FC",
+              "name": "Novotel Paris Suresnes Longchamp",
+              "domain": "place",
+              "affinity": 0.8410843706590029,
+              "address": "7 Rue du Port aux Vins 92150 Suresnes France",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "25255993-75ED-4735-AEB1-E767E3801717",
+              "name": "Pulse Ng",
+              "domain": "brand",
+              "affinity": 0.9896118511896559,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "9145683D-230A-45DF-9BF1-24F8F345FB3C",
+              "name": "Starboy",
+              "domain": "artist",
+              "affinity": 0.9795203767978797,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Turn the anchor’s strongest cultural signals into an intimate, high-confidence experience. Built for core fans and culture-forward young adults in Paris.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Novotel Paris Suresnes Longchamp, Pulse Ng, Starboy research leads. Encore used those leads to form a coherent closest fit concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Cultural bridge",
+          "title": "Common Ground",
+          "venue": "Paris Marriott Rive Gauche Hotel & Conference Center",
+          "venueNote": "17 Bd Saint-Jacques 75014 Paris France",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "7814B110-BD51-48B6-BC94-EDEFA7CB7E18",
+              "name": "Paris Marriott Rive Gauche Hotel & Conference Center",
+              "domain": "place",
+              "affinity": 0.822621616952977,
+              "address": "17 Bd Saint-Jacques 75014 Paris France",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "628DE8B7-4D77-4CF0-A7A2-EE8BF6BAC541",
+              "name": "Guaranty Trust Bank",
+              "domain": "brand",
+              "affinity": 0.9760860177856419,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "ABD3F8E2-6A70-406B-AB76-7F3F85609201",
+              "name": "Davido",
+              "domain": "artist",
+              "affinity": 0.9794033776770756,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Connect two adjacent audiences through a shared place, sound, and ritual. Built for core fans and culture-forward young adults in Paris.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Paris Marriott Rive Gauche Hotel & Conference Center, Guaranty Trust Bank, Davido research leads. Encore used those leads to form a coherent cultural bridge concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Plot twist",
+          "title": "The Beautiful Collision",
+          "venue": "Hotel George Washington Paris",
+          "venueNote": "43 Rue Washington 75008 Paris France",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "7AFAA4D5-8229-4C9C-86A1-215D1A5BA9A4",
+              "name": "Hotel George Washington Paris",
+              "domain": "place",
+              "affinity": 0.8223857791144704,
+              "address": "43 Rue Washington 75008 Paris France",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "C16EA424-AD40-4DE7-AC90-A9B445F5660B",
+              "name": "Travelbeta.com",
+              "domain": "brand",
+              "affinity": 0.9613492439845006,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "E7096B50-EE00-4A60-86E3-231F82115031",
+              "name": "Mr Eazi",
+              "domain": "artist",
+              "affinity": 0.9758610205453321,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Use a less obvious affinity to create a collaboration people will want to explain to someone else. Built for core fans and culture-forward young adults in Paris.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Hotel George Washington Paris, Travelbeta.com, Mr Eazi research leads. Encore used those leads to form a coherent plot twist concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        }
+      ],
+      "evaluation": {
+        "venueClasses": [
+          "flexible event space",
+          "flexible event space",
+          "flexible event space"
+        ],
+        "venueNotes": [
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Potential event space; confirm whether it can support the requested audience and production scale."
+        ],
+        "partnerNames": [
+          "Pulse Ng",
+          "Starboy",
+          "Guaranty Trust Bank",
+          "Davido",
+          "Travelbeta.com",
+          "Mr Eazi"
+        ],
+        "emotionCovered": true,
+        "largeScaleRequested": false,
+        "hasLargeVenue": false,
+        "culturalLeadCount": 0,
+        "duplicateVenues": false,
+        "flags": [],
+        "verdict": "pass"
+      }
+    },
+    {
+      "id": "S061",
+      "anchor": "Wizkid",
+      "city": "Nairobi",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "sampleMode": false,
+      "index": 6,
+      "httpStatus": 200,
+      "mode": "live",
+      "durationMs": 3423,
+      "trail": [
+        "Brief interpreted",
+        "Anchor resolution planned",
+        "Cross-domain discovery planned",
+        "Resolved Wizkid in Qloo",
+        "Compared 24 Qloo entities",
+        "Composed three strategy-distinct concepts"
+      ],
+      "concepts": [
+        {
+          "strategy": "Closest fit",
+          "title": "Wizkid: Signal Room",
+          "venue": "Radisson Blu Hotel, Nairobi Upper Hill",
+          "venueNote": "Elgon Rd Nairobi Kenya",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "7094FA31-0FC9-4BB2-9548-77FD7AFA9F66",
+              "name": "Radisson Blu Hotel, Nairobi Upper Hill",
+              "domain": "place",
+              "affinity": 0.8747885019566688,
+              "address": "Elgon Rd Nairobi Kenya",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "25255993-75ED-4735-AEB1-E767E3801717",
+              "name": "Pulse Ng",
+              "domain": "brand",
+              "affinity": 0.9896118511896559,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "9145683D-230A-45DF-9BF1-24F8F345FB3C",
+              "name": "Starboy",
+              "domain": "artist",
+              "affinity": 0.9795203767978797,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Turn the anchor’s strongest cultural signals into an intimate, high-confidence experience. Built for core fans and culture-forward young adults in Nairobi.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Radisson Blu Hotel, Nairobi Upper Hill, Pulse Ng, Starboy research leads. Encore used those leads to form a coherent closest fit concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Cultural bridge",
+          "title": "Common Ground",
+          "venue": "B-CLUB Nairobi",
+          "venueNote": "Galana Plaza Galana Rd Nairobi Kenya",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "DBF166C6-55CC-453A-9025-104DF3A9D937",
+              "name": "B-CLUB Nairobi",
+              "domain": "place",
+              "affinity": 0.8738639447791612,
+              "address": "Galana Plaza Galana Rd Nairobi Kenya",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "628DE8B7-4D77-4CF0-A7A2-EE8BF6BAC541",
+              "name": "Guaranty Trust Bank",
+              "domain": "brand",
+              "affinity": 0.9760860177856419,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "ABD3F8E2-6A70-406B-AB76-7F3F85609201",
+              "name": "Davido",
+              "domain": "artist",
+              "affinity": 0.9794033776770756,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Connect two adjacent audiences through a shared place, sound, and ritual. Built for core fans and culture-forward young adults in Nairobi.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed B-CLUB Nairobi, Guaranty Trust Bank, Davido research leads. Encore used those leads to form a coherent cultural bridge concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Plot twist",
+          "title": "The Beautiful Collision",
+          "venue": "Tune Hotel Nairobi",
+          "venueNote": "155 Rhapta Road Nairobi Kenya",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "3200113E-434B-426A-8E76-C935C9E353CD",
+              "name": "Tune Hotel Nairobi",
+              "domain": "place",
+              "affinity": 0.8703478198816376,
+              "address": "155 Rhapta Road Nairobi Kenya",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "C16EA424-AD40-4DE7-AC90-A9B445F5660B",
+              "name": "Travelbeta.com",
+              "domain": "brand",
+              "affinity": 0.9613492439845006,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "E7096B50-EE00-4A60-86E3-231F82115031",
+              "name": "Mr Eazi",
+              "domain": "artist",
+              "affinity": 0.9758610205453321,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Use a less obvious affinity to create a collaboration people will want to explain to someone else. Built for core fans and culture-forward young adults in Nairobi.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Tune Hotel Nairobi, Travelbeta.com, Mr Eazi research leads. Encore used those leads to form a coherent plot twist concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        }
+      ],
+      "evaluation": {
+        "venueClasses": [
+          "flexible event space",
+          "flexible event space",
+          "flexible event space"
+        ],
+        "venueNotes": [
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Potential event space; confirm whether it can support the requested audience and production scale."
+        ],
+        "partnerNames": [
+          "Pulse Ng",
+          "Starboy",
+          "Guaranty Trust Bank",
+          "Davido",
+          "Travelbeta.com",
+          "Mr Eazi"
+        ],
+        "emotionCovered": true,
+        "largeScaleRequested": false,
+        "hasLargeVenue": false,
+        "culturalLeadCount": 0,
+        "duplicateVenues": false,
+        "flags": [],
+        "verdict": "pass"
+      }
+    },
+    {
+      "id": "S071",
+      "anchor": "Wizkid",
+      "city": "Johannesburg",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "sampleMode": false,
+      "index": 7,
+      "httpStatus": 200,
+      "mode": "live",
+      "durationMs": 3360,
+      "trail": [
+        "Brief interpreted",
+        "Anchor resolution planned",
+        "Cross-domain discovery planned",
+        "Resolved Wizkid in Qloo",
+        "Compared 24 Qloo entities",
+        "Composed three strategy-distinct concepts"
+      ],
+      "concepts": [
+        {
+          "strategy": "Closest fit",
+          "title": "Wizkid: Signal Room",
+          "venue": "SA Culinary Club",
+          "venueNote": "Hobart Grove Hobart Rd Bryanston, Sandton 2191, South Africa",
+          "venueFit": "Performance venue lead; capacity, dates, and production requirements require verification.",
+          "evidence": [
+            {
+              "id": "39844419-0982-46A5-A190-407758AE039A",
+              "name": "SA Culinary Club",
+              "domain": "place",
+              "affinity": 0.844490182013569,
+              "address": "Hobart Grove Hobart Rd Bryanston, Sandton 2191, South Africa",
+              "venueClass": "concert or performance venue",
+              "venueNote": "Performance venue lead; capacity, dates, and production requirements require verification."
+            },
+            {
+              "id": "25255993-75ED-4735-AEB1-E767E3801717",
+              "name": "Pulse Ng",
+              "domain": "brand",
+              "affinity": 0.9896118511896559,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "9145683D-230A-45DF-9BF1-24F8F345FB3C",
+              "name": "Starboy",
+              "domain": "artist",
+              "affinity": 0.9795203767978797,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Turn the anchor’s strongest cultural signals into an intimate, high-confidence experience. Built for core fans and culture-forward young adults in Johannesburg.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed SA Culinary Club, Pulse Ng, Starboy research leads. Encore used those leads to form a coherent closest fit concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Cultural bridge",
+          "title": "Common Ground",
+          "venue": "The Pivot Conference Centre",
+          "venueNote": "1 Montecasino Blvd Fourways, Sandton 2191 South Africa",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "E35D3722-0B5D-4F00-938A-33C0E9D22616",
+              "name": "The Pivot Conference Centre",
+              "domain": "place",
+              "affinity": 0.8419896601375055,
+              "address": "1 Montecasino Blvd Fourways, Sandton 2191 South Africa",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "628DE8B7-4D77-4CF0-A7A2-EE8BF6BAC541",
+              "name": "Guaranty Trust Bank",
+              "domain": "brand",
+              "affinity": 0.9760860177856419,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "ABD3F8E2-6A70-406B-AB76-7F3F85609201",
+              "name": "Davido",
+              "domain": "artist",
+              "affinity": 0.9794033776770756,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Connect two adjacent audiences through a shared place, sound, and ritual. Built for core fans and culture-forward young adults in Johannesburg.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed The Pivot Conference Centre, Guaranty Trust Bank, Davido research leads. Encore used those leads to form a coherent cultural bridge concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Plot twist",
+          "title": "The Beautiful Collision",
+          "venue": "Byblos Hubbly Lounge",
+          "venueNote": "Corner 9th Ave & Rivonia Blvd Rivonia 2128, South Africa",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "9B231012-546A-4A58-9ABF-12F75B55DC9B",
+              "name": "Byblos Hubbly Lounge",
+              "domain": "place",
+              "affinity": 0.8386686634036167,
+              "address": "Corner 9th Ave & Rivonia Blvd Rivonia 2128, South Africa",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "C16EA424-AD40-4DE7-AC90-A9B445F5660B",
+              "name": "Travelbeta.com",
+              "domain": "brand",
+              "affinity": 0.9613492439845006,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "E7096B50-EE00-4A60-86E3-231F82115031",
+              "name": "Mr Eazi",
+              "domain": "artist",
+              "affinity": 0.9758610205453321,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Use a less obvious affinity to create a collaboration people will want to explain to someone else. Built for core fans and culture-forward young adults in Johannesburg.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Byblos Hubbly Lounge, Travelbeta.com, Mr Eazi research leads. Encore used those leads to form a coherent plot twist concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        }
+      ],
+      "evaluation": {
+        "venueClasses": [
+          "concert or performance venue",
+          "flexible event space",
+          "flexible event space"
+        ],
+        "venueNotes": [
+          "Performance venue lead; capacity, dates, and production requirements require verification.",
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Potential event space; confirm whether it can support the requested audience and production scale."
+        ],
+        "partnerNames": [
+          "Pulse Ng",
+          "Starboy",
+          "Guaranty Trust Bank",
+          "Davido",
+          "Travelbeta.com",
+          "Mr Eazi"
+        ],
+        "emotionCovered": true,
+        "largeScaleRequested": false,
+        "hasLargeVenue": true,
+        "culturalLeadCount": 0,
+        "duplicateVenues": false,
+        "flags": [],
+        "verdict": "pass"
+      }
+    },
+    {
+      "id": "S081",
+      "anchor": "Wizkid",
+      "city": "Dubai",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "sampleMode": false,
+      "index": 8,
+      "httpStatus": 200,
+      "mode": "live",
+      "durationMs": 3740,
+      "trail": [
+        "Brief interpreted",
+        "Anchor resolution planned",
+        "Cross-domain discovery planned",
+        "Resolved Wizkid in Qloo",
+        "Compared 24 Qloo entities",
+        "Composed three strategy-distinct concepts"
+      ],
+      "concepts": [
+        {
+          "strategy": "Closest fit",
+          "title": "Wizkid: Signal Room",
+          "venue": "Marriott Executive Apartments Dubai Creek",
+          "venueNote": "St Riggat Al Buteen - Dubai United Arab Emirates",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "FE3FEF01-BC06-4075-84D0-E41B06C727AB",
+              "name": "Marriott Executive Apartments Dubai Creek",
+              "domain": "place",
+              "affinity": 0.8413127898981714,
+              "address": "St Riggat Al Buteen - Dubai United Arab Emirates",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "25255993-75ED-4735-AEB1-E767E3801717",
+              "name": "Pulse Ng",
+              "domain": "brand",
+              "affinity": 0.9896118511896559,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "9145683D-230A-45DF-9BF1-24F8F345FB3C",
+              "name": "Starboy",
+              "domain": "artist",
+              "affinity": 0.9795203767978797,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Turn the anchor’s strongest cultural signals into an intimate, high-confidence experience. Built for core fans and culture-forward young adults in Dubai.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Marriott Executive Apartments Dubai Creek, Pulse Ng, Starboy research leads. Encore used those leads to form a coherent closest fit concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Cultural bridge",
+          "title": "Common Ground",
+          "venue": "Studio M Hotel Arabian Plaza",
+          "venueNote": "Al Qiyadah Al Ittihad Rd Hor Al Anz East - Deira - Dubai United Arab Emirates",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "1E639338-15DD-49D6-87AC-5FA12E9E43E5",
+              "name": "Studio M Hotel Arabian Plaza",
+              "domain": "place",
+              "affinity": 0.8389728751688293,
+              "address": "Al Qiyadah Al Ittihad Rd Hor Al Anz East - Deira - Dubai United Arab Emirates",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "628DE8B7-4D77-4CF0-A7A2-EE8BF6BAC541",
+              "name": "Guaranty Trust Bank",
+              "domain": "brand",
+              "affinity": 0.9760860177856419,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "ABD3F8E2-6A70-406B-AB76-7F3F85609201",
+              "name": "Davido",
+              "domain": "artist",
+              "affinity": 0.9794033776770756,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Connect two adjacent audiences through a shared place, sound, and ritual. Built for core fans and culture-forward young adults in Dubai.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Studio M Hotel Arabian Plaza, Guaranty Trust Bank, Davido research leads. Encore used those leads to form a coherent cultural bridge concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Plot twist",
+          "title": "The Beautiful Collision",
+          "venue": "J5 Hotels Port Saeed",
+          "venueNote": "27th St next to Deira City Center Port Saeed - Deira - Dubai United Arab Emirates",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "8EE665F5-651D-4F6A-9FB2-8E309F4345C2",
+              "name": "J5 Hotels Port Saeed",
+              "domain": "place",
+              "affinity": 0.8353405189079964,
+              "address": "27th St next to Deira City Center Port Saeed - Deira - Dubai United Arab Emirates",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "C16EA424-AD40-4DE7-AC90-A9B445F5660B",
+              "name": "Travelbeta.com",
+              "domain": "brand",
+              "affinity": 0.9613492439845006,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "E7096B50-EE00-4A60-86E3-231F82115031",
+              "name": "Mr Eazi",
+              "domain": "artist",
+              "affinity": 0.9758610205453321,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Use a less obvious affinity to create a collaboration people will want to explain to someone else. Built for core fans and culture-forward young adults in Dubai.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed J5 Hotels Port Saeed, Travelbeta.com, Mr Eazi research leads. Encore used those leads to form a coherent plot twist concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        }
+      ],
+      "evaluation": {
+        "venueClasses": [
+          "flexible event space",
+          "flexible event space",
+          "flexible event space"
+        ],
+        "venueNotes": [
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Potential event space; confirm whether it can support the requested audience and production scale."
+        ],
+        "partnerNames": [
+          "Pulse Ng",
+          "Starboy",
+          "Guaranty Trust Bank",
+          "Davido",
+          "Travelbeta.com",
+          "Mr Eazi"
+        ],
+        "emotionCovered": true,
+        "largeScaleRequested": false,
+        "hasLargeVenue": false,
+        "culturalLeadCount": 0,
+        "duplicateVenues": false,
+        "flags": [],
+        "verdict": "pass"
+      }
+    },
+    {
+      "id": "S091",
+      "anchor": "Wizkid",
+      "city": "Toronto",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "sampleMode": false,
+      "index": 9,
+      "httpStatus": 200,
+      "mode": "live",
+      "durationMs": 3651,
+      "trail": [
+        "Brief interpreted",
+        "Anchor resolution planned",
+        "Cross-domain discovery planned",
+        "Resolved Wizkid in Qloo",
+        "Compared 24 Qloo entities",
+        "Composed three strategy-distinct concepts"
+      ],
+      "concepts": [
+        {
+          "strategy": "Closest fit",
+          "title": "Wizkid: Signal Room",
+          "venue": "Windscribe Limited",
+          "venueNote": "555 Richmond St W Toronto, ON M5V 3B1 Canada",
+          "venueFit": "Qloo cultural place lead; venue type and event suitability require verification.",
+          "evidence": [
+            {
+              "id": "A3B167DA-20FD-40C3-8427-AEBAD3C02483",
+              "name": "Windscribe Limited",
+              "domain": "place",
+              "affinity": 0.7582234520208451,
+              "address": "555 Richmond St W Toronto, ON M5V 3B1 Canada",
+              "venueClass": "unclassified place",
+              "venueNote": "Qloo cultural place lead; venue type and event suitability require verification."
+            },
+            {
+              "id": "25255993-75ED-4735-AEB1-E767E3801717",
+              "name": "Pulse Ng",
+              "domain": "brand",
+              "affinity": 0.9896118511896559,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "9145683D-230A-45DF-9BF1-24F8F345FB3C",
+              "name": "Starboy",
+              "domain": "artist",
+              "affinity": 0.9795203767978797,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Turn the anchor’s strongest cultural signals into an intimate, high-confidence experience. Built for core fans and culture-forward young adults in Toronto.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Windscribe Limited, Pulse Ng, Starboy research leads. Encore used those leads to form a coherent closest fit concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Cultural bridge",
+          "title": "Common Ground",
+          "venue": "Canadian Visa Expert",
+          "venueNote": "739 Birchmount Rd Scarborough, ON M1K 1R6 Canada",
+          "venueFit": "Qloo cultural place lead; venue type and event suitability require verification.",
+          "evidence": [
+            {
+              "id": "335B0111-A4ED-4E64-B26B-8FC226BDE972",
+              "name": "Canadian Visa Expert",
+              "domain": "place",
+              "affinity": 0.732191807082865,
+              "address": "739 Birchmount Rd Scarborough, ON M1K 1R6 Canada",
+              "venueClass": "unclassified place",
+              "venueNote": "Qloo cultural place lead; venue type and event suitability require verification."
+            },
+            {
+              "id": "628DE8B7-4D77-4CF0-A7A2-EE8BF6BAC541",
+              "name": "Guaranty Trust Bank",
+              "domain": "brand",
+              "affinity": 0.9760860177856419,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "ABD3F8E2-6A70-406B-AB76-7F3F85609201",
+              "name": "Davido",
+              "domain": "artist",
+              "affinity": 0.9794033776770756,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Connect two adjacent audiences through a shared place, sound, and ritual. Built for core fans and culture-forward young adults in Toronto.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Canadian Visa Expert, Guaranty Trust Bank, Davido research leads. Encore used those leads to form a coherent cultural bridge concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        },
+        {
+          "strategy": "Plot twist",
+          "title": "The Beautiful Collision",
+          "venue": "Flo's Grill & Kitchen",
+          "venueNote": "4040 Steeles Ave W #17 Vaughan, ON L4L 4Y5 Canada",
+          "venueFit": "Cultural or media lead — not classified as an event venue.",
+          "evidence": [
+            {
+              "id": "9090D9B1-A40E-4DC2-89B2-0F5E325DB773",
+              "name": "Flo's Grill & Kitchen",
+              "domain": "place",
+              "affinity": 0.7599304345158986,
+              "address": "4040 Steeles Ave W #17 Vaughan, ON L4L 4Y5 Canada",
+              "venueClass": "cultural lead",
+              "venueNote": "Cultural or media lead — not classified as an event venue."
+            },
+            {
+              "id": "C16EA424-AD40-4DE7-AC90-A9B445F5660B",
+              "name": "Travelbeta.com",
+              "domain": "brand",
+              "affinity": 0.9613492439845006,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "E7096B50-EE00-4A60-86E3-231F82115031",
+              "name": "Mr Eazi",
+              "domain": "artist",
+              "affinity": 0.9758610205453321,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Use a less obvious affinity to create a collaboration people will want to explain to someone else. Built for core fans and culture-forward young adults in Toronto.",
+          "whyItWorks": "Qloo connected Wizkid to the displayed Flo's Grill & Kitchen, Travelbeta.com, Mr Eazi research leads. Encore used those leads to form a coherent plot twist concept for the stated objective: Create a high-energy opening night people will photograph and share."
+        }
+      ],
+      "evaluation": {
+        "venueClasses": [
+          "unclassified place",
+          "unclassified place",
+          "cultural lead"
+        ],
+        "venueNotes": [
+          "Qloo cultural place lead; venue type and event suitability require verification.",
+          "Qloo cultural place lead; venue type and event suitability require verification.",
+          "Cultural or media lead — not classified as an event venue."
+        ],
+        "partnerNames": [
+          "Pulse Ng",
+          "Starboy",
+          "Guaranty Trust Bank",
+          "Davido",
+          "Travelbeta.com",
+          "Mr Eazi"
+        ],
+        "emotionCovered": true,
+        "largeScaleRequested": false,
+        "hasLargeVenue": false,
+        "culturalLeadCount": 3,
+        "duplicateVenues": false,
+        "flags": [
+          "3 location lead(s) need venue verification"
+        ],
+        "verdict": "review"
+      }
+    }
+  ]
+}

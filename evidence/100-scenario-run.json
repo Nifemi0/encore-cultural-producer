@@ -1,0 +1,2510 @@
+{
+  "summary": {
+    "endpoint": "https://encore.nuvixes.studio",
+    "generatedAt": "2026-10-12T19:46:46.102Z",
+    "total": 100,
+    "httpPass": 2,
+    "liveMode": 2,
+    "verdictPass": 0,
+    "review": 2,
+    "failures": 98,
+    "flagCounts": {
+      "Qloo returned 429. Check the event key and inputs.": 98,
+      "1 location lead(s) need venue verification": 1,
+      "2 location lead(s) need venue verification": 1
+    },
+    "averageDurationMs": 573
+  },
+  "results": [
+    {
+      "id": "S001",
+      "anchor": "Wizkid",
+      "city": "Lagos",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 0,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 1814,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S002",
+      "anchor": "Burna Boy",
+      "city": "Lagos",
+      "audience": "premium nightlife guests and tastemakers",
+      "emotion": "status",
+      "objective": "Build an intimate, emotionally resonant experience that makes guests feel seen.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 1,
+      "httpStatus": 200,
+      "mode": "live",
+      "durationMs": 4376,
+      "trail": [
+        "Brief interpreted",
+        "Anchor resolution planned",
+        "Cross-domain discovery planned",
+        "Resolved Burna Boy in Qloo",
+        "Compared 24 Qloo entities",
+        "Composed three strategy-distinct concepts"
+      ],
+      "concepts": [
+        {
+          "strategy": "Closest fit",
+          "title": "Burna Boy: Signal Room",
+          "venue": "GLITZ Event Centre at lekki",
+          "venueNote": "Block 2 Plot 2 Okunde Blue Water Zone, Off Remi Olowude Street, Lekki 2n Plot 14 The Providence St Lekki Phase 1 Lekki 106104, Lagos, Nigeria",
+          "venueFit": "Large-format venue lead for headline-scale programming; capacity and availability still require verification.",
+          "evidence": [
+            {
+              "id": "F83A5862-7731-4207-8EBA-4EB4E8FAC99A",
+              "name": "GLITZ Event Centre at lekki",
+              "domain": "place",
+              "affinity": 0.9842863033407354,
+              "address": "Block 2 Plot 2 Okunde Blue Water Zone, Off Remi Olowude Street, Lekki 2n Plot 14 The Providence St Lekki Phase 1 Lekki 106104, Lagos, Nigeria",
+              "venueClass": "stadium or major event venue",
+              "venueNote": "Large-format venue lead for headline-scale programming; capacity and availability still require verification."
+            },
+            {
+              "id": "25255993-75ED-4735-AEB1-E767E3801717",
+              "name": "Pulse Ng",
+              "domain": "brand",
+              "affinity": 0.9891680042082494,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "E7096B50-EE00-4A60-86E3-231F82115031",
+              "name": "Mr Eazi",
+              "domain": "artist",
+              "affinity": 0.9759093945780702,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Turn the anchor’s strongest cultural signals into an intimate, high-confidence experience. Built for premium nightlife guests and tastemakers in Lagos.",
+          "whyItWorks": "Qloo connected Burna Boy to the displayed GLITZ Event Centre at lekki, Pulse Ng, Mr Eazi research leads. Encore used those leads to form a coherent closest fit concept for the stated objective: Build an intimate, emotionally resonant experience that makes guests feel seen."
+        },
+        {
+          "strategy": "Cultural bridge",
+          "title": "Common Ground",
+          "venue": "Sharon Ultimate Hotels",
+          "venueNote": "Langbasa Rd Addo Lekki 106104 Lagos, Nigeria",
+          "venueFit": "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "evidence": [
+            {
+              "id": "798B282B-47F8-42C9-AEDE-2F4781E6D661",
+              "name": "Sharon Ultimate Hotels",
+              "domain": "place",
+              "affinity": 0.9830582445541797,
+              "address": "Langbasa Rd Addo Lekki 106104 Lagos, Nigeria",
+              "venueClass": "flexible event space",
+              "venueNote": "Potential event space; confirm whether it can support the requested audience and production scale."
+            },
+            {
+              "id": "628DE8B7-4D77-4CF0-A7A2-EE8BF6BAC541",
+              "name": "Guaranty Trust Bank",
+              "domain": "brand",
+              "affinity": 0.9696839444591248,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "28EF796E-D7E8-42AC-BF59-414359E4E7B4",
+              "name": "Rema",
+              "domain": "artist",
+              "affinity": 0.9706586640460885,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Connect two adjacent audiences through a shared place, sound, and ritual. Built for premium nightlife guests and tastemakers in Lagos.",
+          "whyItWorks": "Qloo connected Burna Boy to the displayed Sharon Ultimate Hotels, Guaranty Trust Bank, Rema research leads. Encore used those leads to form a coherent cultural bridge concept for the stated objective: Build an intimate, emotionally resonant experience that makes guests feel seen."
+        },
+        {
+          "strategy": "Plot twist",
+          "title": "The Beautiful Collision",
+          "venue": "Lekki Leisure",
+          "venueNote": "CFF6+FVW Lekki Leisure Lake, Adekunle Animashaun Drive, Marwa, Off Lekki Phase 1, Lekki Adekunle Animashaun Dr Eti-Osa, Lagos 106104, Lagos, Nigeria",
+          "venueFit": "Qloo cultural place lead; venue type and event suitability require verification.",
+          "evidence": [
+            {
+              "id": "4D73E983-3098-4934-B227-928C4658409D",
+              "name": "Lekki Leisure",
+              "domain": "place",
+              "affinity": 0.985953818878105,
+              "address": "CFF6+FVW Lekki Leisure Lake, Adekunle Animashaun Drive, Marwa, Off Lekki Phase 1, Lekki Adekunle Animashaun Dr Eti-Osa, Lagos 106104, Lagos, Nigeria",
+              "venueClass": "unclassified place",
+              "venueNote": "Qloo cultural place lead; venue type and event suitability require verification."
+            },
+            {
+              "id": "2BAE9B88-2327-4C62-A811-94F46F672748",
+              "name": "Fidelity Bank Nigeria",
+              "domain": "brand",
+              "affinity": 0.9577640190336129,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "C510E01A-E17C-45FC-8DCE-64A963A121A4",
+              "name": "Wizkid",
+              "domain": "artist",
+              "affinity": 0.9684520460367366,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Use a less obvious affinity to create a collaboration people will want to explain to someone else. Built for premium nightlife guests and tastemakers in Lagos.",
+          "whyItWorks": "Qloo connected Burna Boy to the displayed Lekki Leisure, Fidelity Bank Nigeria, Wizkid research leads. Encore used those leads to form a coherent plot twist concept for the stated objective: Build an intimate, emotionally resonant experience that makes guests feel seen."
+        }
+      ],
+      "evaluation": {
+        "venueClasses": [
+          "stadium or major event venue",
+          "flexible event space",
+          "unclassified place"
+        ],
+        "venueNotes": [
+          "Large-format venue lead for headline-scale programming; capacity and availability still require verification.",
+          "Potential event space; confirm whether it can support the requested audience and production scale.",
+          "Qloo cultural place lead; venue type and event suitability require verification."
+        ],
+        "partnerNames": [
+          "Pulse Ng",
+          "Mr Eazi",
+          "Guaranty Trust Bank",
+          "Rema",
+          "Fidelity Bank Nigeria",
+          "Wizkid"
+        ],
+        "emotionCovered": true,
+        "largeScaleRequested": false,
+        "hasLargeVenue": true,
+        "culturalLeadCount": 1,
+        "duplicateVenues": false,
+        "flags": [
+          "1 location lead(s) need venue verification"
+        ],
+        "verdict": "review"
+      }
+    },
+    {
+      "id": "S003",
+      "anchor": "Dune",
+      "city": "Lagos",
+      "audience": "families looking for a joyful shared experience",
+      "emotion": "joy",
+      "objective": "Find a headline-scale venue for a major live event.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 2,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 1758,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S004",
+      "anchor": "Black Panther",
+      "city": "Lagos",
+      "audience": "design-conscious creatives who want an immersive night out",
+      "emotion": "wonder",
+      "objective": "Create a nostalgic cultural bridge between the anchor and the city.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 3,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 1768,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S005",
+      "anchor": "The Sims",
+      "city": "Lagos",
+      "audience": "diaspora communities reconnecting with home",
+      "emotion": "nostalgia",
+      "objective": "Introduce the anchor to a new audience through an unexpected local collaboration.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 4,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 1750,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S006",
+      "anchor": "Nike",
+      "city": "Lagos",
+      "audience": "music discovery fans who want a high-energy crowd",
+      "emotion": "energy",
+      "objective": "Make a premium experience feel distinctive, cinematic, and worth travelling for.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 5,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 702,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S007",
+      "anchor": "FIFA",
+      "city": "Lagos",
+      "audience": "brand community members who want something unexpected",
+      "emotion": "surprise",
+      "objective": "Turn cultural affinity into a practical launch concept with a clear guest journey.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 6,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 603,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S008",
+      "anchor": "Stranger Things",
+      "city": "Lagos",
+      "audience": "film and storytelling fans seeking emotional depth",
+      "emotion": "awe",
+      "objective": "Create a joyful community moment that families can safely share.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 7,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 590,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S009",
+      "anchor": "Sade",
+      "city": "Lagos",
+      "audience": "local culture leaders and influential connectors",
+      "emotion": "pride",
+      "objective": "Find a credible partner ecosystem for a city-specific activation.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 8,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 331,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S010",
+      "anchor": "Afrobeats",
+      "city": "Lagos",
+      "audience": "curious newcomers who want a welcoming first experience",
+      "emotion": "welcome",
+      "objective": "Design a surprising concept that people will want to explain to someone else.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 9,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 626,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S011",
+      "anchor": "Wizkid",
+      "city": "Accra",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 10,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 326,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S012",
+      "anchor": "Burna Boy",
+      "city": "Accra",
+      "audience": "premium nightlife guests and tastemakers",
+      "emotion": "status",
+      "objective": "Build an intimate, emotionally resonant experience that makes guests feel seen.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 11,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 337,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S013",
+      "anchor": "Dune",
+      "city": "Accra",
+      "audience": "families looking for a joyful shared experience",
+      "emotion": "joy",
+      "objective": "Find a headline-scale venue for a major live event.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 12,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 342,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S014",
+      "anchor": "Black Panther",
+      "city": "Accra",
+      "audience": "design-conscious creatives who want an immersive night out",
+      "emotion": "wonder",
+      "objective": "Create a nostalgic cultural bridge between the anchor and the city.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 13,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 422,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S015",
+      "anchor": "The Sims",
+      "city": "Accra",
+      "audience": "diaspora communities reconnecting with home",
+      "emotion": "nostalgia",
+      "objective": "Introduce the anchor to a new audience through an unexpected local collaboration.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 14,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 409,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S016",
+      "anchor": "Nike",
+      "city": "Accra",
+      "audience": "music discovery fans who want a high-energy crowd",
+      "emotion": "energy",
+      "objective": "Make a premium experience feel distinctive, cinematic, and worth travelling for.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 15,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 380,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S017",
+      "anchor": "FIFA",
+      "city": "Accra",
+      "audience": "brand community members who want something unexpected",
+      "emotion": "surprise",
+      "objective": "Turn cultural affinity into a practical launch concept with a clear guest journey.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 16,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 347,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S018",
+      "anchor": "Stranger Things",
+      "city": "Accra",
+      "audience": "film and storytelling fans seeking emotional depth",
+      "emotion": "awe",
+      "objective": "Create a joyful community moment that families can safely share.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 17,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 444,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S019",
+      "anchor": "Sade",
+      "city": "Accra",
+      "audience": "local culture leaders and influential connectors",
+      "emotion": "pride",
+      "objective": "Find a credible partner ecosystem for a city-specific activation.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 18,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 491,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S020",
+      "anchor": "Afrobeats",
+      "city": "Accra",
+      "audience": "curious newcomers who want a welcoming first experience",
+      "emotion": "welcome",
+      "objective": "Design a surprising concept that people will want to explain to someone else.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 19,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 393,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S021",
+      "anchor": "Wizkid",
+      "city": "London",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 20,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 400,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S022",
+      "anchor": "Burna Boy",
+      "city": "London",
+      "audience": "premium nightlife guests and tastemakers",
+      "emotion": "status",
+      "objective": "Build an intimate, emotionally resonant experience that makes guests feel seen.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 21,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 465,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S023",
+      "anchor": "Dune",
+      "city": "London",
+      "audience": "families looking for a joyful shared experience",
+      "emotion": "joy",
+      "objective": "Find a headline-scale venue for a major live event.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 22,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 441,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S024",
+      "anchor": "Black Panther",
+      "city": "London",
+      "audience": "design-conscious creatives who want an immersive night out",
+      "emotion": "wonder",
+      "objective": "Create a nostalgic cultural bridge between the anchor and the city.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 23,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 439,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S025",
+      "anchor": "The Sims",
+      "city": "London",
+      "audience": "diaspora communities reconnecting with home",
+      "emotion": "nostalgia",
+      "objective": "Introduce the anchor to a new audience through an unexpected local collaboration.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 24,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 394,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S026",
+      "anchor": "Nike",
+      "city": "London",
+      "audience": "music discovery fans who want a high-energy crowd",
+      "emotion": "energy",
+      "objective": "Make a premium experience feel distinctive, cinematic, and worth travelling for.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 25,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 358,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S027",
+      "anchor": "FIFA",
+      "city": "London",
+      "audience": "brand community members who want something unexpected",
+      "emotion": "surprise",
+      "objective": "Turn cultural affinity into a practical launch concept with a clear guest journey.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 26,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 364,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S028",
+      "anchor": "Stranger Things",
+      "city": "London",
+      "audience": "film and storytelling fans seeking emotional depth",
+      "emotion": "awe",
+      "objective": "Create a joyful community moment that families can safely share.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 27,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 353,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S029",
+      "anchor": "Sade",
+      "city": "London",
+      "audience": "local culture leaders and influential connectors",
+      "emotion": "pride",
+      "objective": "Find a credible partner ecosystem for a city-specific activation.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 28,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 866,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S030",
+      "anchor": "Afrobeats",
+      "city": "London",
+      "audience": "curious newcomers who want a welcoming first experience",
+      "emotion": "welcome",
+      "objective": "Design a surprising concept that people will want to explain to someone else.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 29,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 535,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S031",
+      "anchor": "Wizkid",
+      "city": "New York",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 30,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 528,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S032",
+      "anchor": "Burna Boy",
+      "city": "New York",
+      "audience": "premium nightlife guests and tastemakers",
+      "emotion": "status",
+      "objective": "Build an intimate, emotionally resonant experience that makes guests feel seen.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 31,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 530,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S033",
+      "anchor": "Dune",
+      "city": "New York",
+      "audience": "families looking for a joyful shared experience",
+      "emotion": "joy",
+      "objective": "Find a headline-scale venue for a major live event.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 32,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 489,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S034",
+      "anchor": "Black Panther",
+      "city": "New York",
+      "audience": "design-conscious creatives who want an immersive night out",
+      "emotion": "wonder",
+      "objective": "Create a nostalgic cultural bridge between the anchor and the city.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 33,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 444,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S035",
+      "anchor": "The Sims",
+      "city": "New York",
+      "audience": "diaspora communities reconnecting with home",
+      "emotion": "nostalgia",
+      "objective": "Introduce the anchor to a new audience through an unexpected local collaboration.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 34,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 444,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S036",
+      "anchor": "Nike",
+      "city": "New York",
+      "audience": "music discovery fans who want a high-energy crowd",
+      "emotion": "energy",
+      "objective": "Make a premium experience feel distinctive, cinematic, and worth travelling for.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 35,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 438,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S037",
+      "anchor": "FIFA",
+      "city": "New York",
+      "audience": "brand community members who want something unexpected",
+      "emotion": "surprise",
+      "objective": "Turn cultural affinity into a practical launch concept with a clear guest journey.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 36,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 426,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S038",
+      "anchor": "Stranger Things",
+      "city": "New York",
+      "audience": "film and storytelling fans seeking emotional depth",
+      "emotion": "awe",
+      "objective": "Create a joyful community moment that families can safely share.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 37,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 436,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S039",
+      "anchor": "Sade",
+      "city": "New York",
+      "audience": "local culture leaders and influential connectors",
+      "emotion": "pride",
+      "objective": "Find a credible partner ecosystem for a city-specific activation.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 38,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 621,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S040",
+      "anchor": "Afrobeats",
+      "city": "New York",
+      "audience": "curious newcomers who want a welcoming first experience",
+      "emotion": "welcome",
+      "objective": "Design a surprising concept that people will want to explain to someone else.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 39,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 608,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S041",
+      "anchor": "Wizkid",
+      "city": "Los Angeles",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 40,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 609,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S042",
+      "anchor": "Burna Boy",
+      "city": "Los Angeles",
+      "audience": "premium nightlife guests and tastemakers",
+      "emotion": "status",
+      "objective": "Build an intimate, emotionally resonant experience that makes guests feel seen.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 41,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 613,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S043",
+      "anchor": "Dune",
+      "city": "Los Angeles",
+      "audience": "families looking for a joyful shared experience",
+      "emotion": "joy",
+      "objective": "Find a headline-scale venue for a major live event.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 42,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 603,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S044",
+      "anchor": "Black Panther",
+      "city": "Los Angeles",
+      "audience": "design-conscious creatives who want an immersive night out",
+      "emotion": "wonder",
+      "objective": "Create a nostalgic cultural bridge between the anchor and the city.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 43,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 526,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S045",
+      "anchor": "The Sims",
+      "city": "Los Angeles",
+      "audience": "diaspora communities reconnecting with home",
+      "emotion": "nostalgia",
+      "objective": "Introduce the anchor to a new audience through an unexpected local collaboration.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 44,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 510,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S046",
+      "anchor": "Nike",
+      "city": "Los Angeles",
+      "audience": "music discovery fans who want a high-energy crowd",
+      "emotion": "energy",
+      "objective": "Make a premium experience feel distinctive, cinematic, and worth travelling for.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 45,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 513,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S047",
+      "anchor": "FIFA",
+      "city": "Los Angeles",
+      "audience": "brand community members who want something unexpected",
+      "emotion": "surprise",
+      "objective": "Turn cultural affinity into a practical launch concept with a clear guest journey.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 46,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 514,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S048",
+      "anchor": "Stranger Things",
+      "city": "Los Angeles",
+      "audience": "film and storytelling fans seeking emotional depth",
+      "emotion": "awe",
+      "objective": "Create a joyful community moment that families can safely share.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 47,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 520,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S049",
+      "anchor": "Sade",
+      "city": "Los Angeles",
+      "audience": "local culture leaders and influential connectors",
+      "emotion": "pride",
+      "objective": "Find a credible partner ecosystem for a city-specific activation.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 48,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 470,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S050",
+      "anchor": "Afrobeats",
+      "city": "Los Angeles",
+      "audience": "curious newcomers who want a welcoming first experience",
+      "emotion": "welcome",
+      "objective": "Design a surprising concept that people will want to explain to someone else.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 49,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 387,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S051",
+      "anchor": "Wizkid",
+      "city": "Paris",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 50,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 366,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S052",
+      "anchor": "Burna Boy",
+      "city": "Paris",
+      "audience": "premium nightlife guests and tastemakers",
+      "emotion": "status",
+      "objective": "Build an intimate, emotionally resonant experience that makes guests feel seen.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 51,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 469,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S053",
+      "anchor": "Dune",
+      "city": "Paris",
+      "audience": "families looking for a joyful shared experience",
+      "emotion": "joy",
+      "objective": "Find a headline-scale venue for a major live event.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 52,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 424,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S054",
+      "anchor": "Black Panther",
+      "city": "Paris",
+      "audience": "design-conscious creatives who want an immersive night out",
+      "emotion": "wonder",
+      "objective": "Create a nostalgic cultural bridge between the anchor and the city.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 53,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 552,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S055",
+      "anchor": "The Sims",
+      "city": "Paris",
+      "audience": "diaspora communities reconnecting with home",
+      "emotion": "nostalgia",
+      "objective": "Introduce the anchor to a new audience through an unexpected local collaboration.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 54,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 530,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S056",
+      "anchor": "Nike",
+      "city": "Paris",
+      "audience": "music discovery fans who want a high-energy crowd",
+      "emotion": "energy",
+      "objective": "Make a premium experience feel distinctive, cinematic, and worth travelling for.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 55,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 494,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S057",
+      "anchor": "FIFA",
+      "city": "Paris",
+      "audience": "brand community members who want something unexpected",
+      "emotion": "surprise",
+      "objective": "Turn cultural affinity into a practical launch concept with a clear guest journey.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 56,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 462,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S058",
+      "anchor": "Stranger Things",
+      "city": "Paris",
+      "audience": "film and storytelling fans seeking emotional depth",
+      "emotion": "awe",
+      "objective": "Create a joyful community moment that families can safely share.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 57,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 457,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S059",
+      "anchor": "Sade",
+      "city": "Paris",
+      "audience": "local culture leaders and influential connectors",
+      "emotion": "pride",
+      "objective": "Find a credible partner ecosystem for a city-specific activation.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 58,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 405,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S060",
+      "anchor": "Afrobeats",
+      "city": "Paris",
+      "audience": "curious newcomers who want a welcoming first experience",
+      "emotion": "welcome",
+      "objective": "Design a surprising concept that people will want to explain to someone else.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 59,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 409,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S061",
+      "anchor": "Wizkid",
+      "city": "Nairobi",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 60,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 383,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S062",
+      "anchor": "Burna Boy",
+      "city": "Nairobi",
+      "audience": "premium nightlife guests and tastemakers",
+      "emotion": "status",
+      "objective": "Build an intimate, emotionally resonant experience that makes guests feel seen.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 61,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 387,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S063",
+      "anchor": "Dune",
+      "city": "Nairobi",
+      "audience": "families looking for a joyful shared experience",
+      "emotion": "joy",
+      "objective": "Find a headline-scale venue for a major live event.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 62,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 379,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S064",
+      "anchor": "Black Panther",
+      "city": "Nairobi",
+      "audience": "design-conscious creatives who want an immersive night out",
+      "emotion": "wonder",
+      "objective": "Create a nostalgic cultural bridge between the anchor and the city.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 63,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 485,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S065",
+      "anchor": "The Sims",
+      "city": "Nairobi",
+      "audience": "diaspora communities reconnecting with home",
+      "emotion": "nostalgia",
+      "objective": "Introduce the anchor to a new audience through an unexpected local collaboration.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 64,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 441,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S066",
+      "anchor": "Nike",
+      "city": "Nairobi",
+      "audience": "music discovery fans who want a high-energy crowd",
+      "emotion": "energy",
+      "objective": "Make a premium experience feel distinctive, cinematic, and worth travelling for.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 65,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 433,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S067",
+      "anchor": "FIFA",
+      "city": "Nairobi",
+      "audience": "brand community members who want something unexpected",
+      "emotion": "surprise",
+      "objective": "Turn cultural affinity into a practical launch concept with a clear guest journey.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 66,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 414,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S068",
+      "anchor": "Stranger Things",
+      "city": "Nairobi",
+      "audience": "film and storytelling fans seeking emotional depth",
+      "emotion": "awe",
+      "objective": "Create a joyful community moment that families can safely share.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 67,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 414,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S069",
+      "anchor": "Sade",
+      "city": "Nairobi",
+      "audience": "local culture leaders and influential connectors",
+      "emotion": "pride",
+      "objective": "Find a credible partner ecosystem for a city-specific activation.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 68,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 380,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S070",
+      "anchor": "Afrobeats",
+      "city": "Nairobi",
+      "audience": "curious newcomers who want a welcoming first experience",
+      "emotion": "welcome",
+      "objective": "Design a surprising concept that people will want to explain to someone else.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 69,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 375,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S071",
+      "anchor": "Wizkid",
+      "city": "Johannesburg",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 70,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 373,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S072",
+      "anchor": "Burna Boy",
+      "city": "Johannesburg",
+      "audience": "premium nightlife guests and tastemakers",
+      "emotion": "status",
+      "objective": "Build an intimate, emotionally resonant experience that makes guests feel seen.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 71,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 445,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S073",
+      "anchor": "Dune",
+      "city": "Johannesburg",
+      "audience": "families looking for a joyful shared experience",
+      "emotion": "joy",
+      "objective": "Find a headline-scale venue for a major live event.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 72,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 345,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S074",
+      "anchor": "Black Panther",
+      "city": "Johannesburg",
+      "audience": "design-conscious creatives who want an immersive night out",
+      "emotion": "wonder",
+      "objective": "Create a nostalgic cultural bridge between the anchor and the city.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 73,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 474,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S075",
+      "anchor": "The Sims",
+      "city": "Johannesburg",
+      "audience": "diaspora communities reconnecting with home",
+      "emotion": "nostalgia",
+      "objective": "Introduce the anchor to a new audience through an unexpected local collaboration.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 74,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 467,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S076",
+      "anchor": "Nike",
+      "city": "Johannesburg",
+      "audience": "music discovery fans who want a high-energy crowd",
+      "emotion": "energy",
+      "objective": "Make a premium experience feel distinctive, cinematic, and worth travelling for.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 75,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 467,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S077",
+      "anchor": "FIFA",
+      "city": "Johannesburg",
+      "audience": "brand community members who want something unexpected",
+      "emotion": "surprise",
+      "objective": "Turn cultural affinity into a practical launch concept with a clear guest journey.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 76,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 453,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S078",
+      "anchor": "Stranger Things",
+      "city": "Johannesburg",
+      "audience": "film and storytelling fans seeking emotional depth",
+      "emotion": "awe",
+      "objective": "Create a joyful community moment that families can safely share.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 77,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 395,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S079",
+      "anchor": "Sade",
+      "city": "Johannesburg",
+      "audience": "local culture leaders and influential connectors",
+      "emotion": "pride",
+      "objective": "Find a credible partner ecosystem for a city-specific activation.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 78,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 497,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S080",
+      "anchor": "Afrobeats",
+      "city": "Johannesburg",
+      "audience": "curious newcomers who want a welcoming first experience",
+      "emotion": "welcome",
+      "objective": "Design a surprising concept that people will want to explain to someone else.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 79,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 361,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S081",
+      "anchor": "Wizkid",
+      "city": "Dubai",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 80,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 363,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S082",
+      "anchor": "Burna Boy",
+      "city": "Dubai",
+      "audience": "premium nightlife guests and tastemakers",
+      "emotion": "status",
+      "objective": "Build an intimate, emotionally resonant experience that makes guests feel seen.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 81,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 643,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S083",
+      "anchor": "Dune",
+      "city": "Dubai",
+      "audience": "families looking for a joyful shared experience",
+      "emotion": "joy",
+      "objective": "Find a headline-scale venue for a major live event.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 82,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 404,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S084",
+      "anchor": "Black Panther",
+      "city": "Dubai",
+      "audience": "design-conscious creatives who want an immersive night out",
+      "emotion": "wonder",
+      "objective": "Create a nostalgic cultural bridge between the anchor and the city.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 83,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 356,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S085",
+      "anchor": "The Sims",
+      "city": "Dubai",
+      "audience": "diaspora communities reconnecting with home",
+      "emotion": "nostalgia",
+      "objective": "Introduce the anchor to a new audience through an unexpected local collaboration.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 84,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 349,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S086",
+      "anchor": "Nike",
+      "city": "Dubai",
+      "audience": "music discovery fans who want a high-energy crowd",
+      "emotion": "energy",
+      "objective": "Make a premium experience feel distinctive, cinematic, and worth travelling for.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 85,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 360,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S087",
+      "anchor": "FIFA",
+      "city": "Dubai",
+      "audience": "brand community members who want something unexpected",
+      "emotion": "surprise",
+      "objective": "Turn cultural affinity into a practical launch concept with a clear guest journey.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 86,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 349,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S088",
+      "anchor": "Stranger Things",
+      "city": "Dubai",
+      "audience": "film and storytelling fans seeking emotional depth",
+      "emotion": "awe",
+      "objective": "Create a joyful community moment that families can safely share.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 87,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 353,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S089",
+      "anchor": "Sade",
+      "city": "Dubai",
+      "audience": "local culture leaders and influential connectors",
+      "emotion": "pride",
+      "objective": "Find a credible partner ecosystem for a city-specific activation.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 88,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 348,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S090",
+      "anchor": "Afrobeats",
+      "city": "Dubai",
+      "audience": "curious newcomers who want a welcoming first experience",
+      "emotion": "welcome",
+      "objective": "Design a surprising concept that people will want to explain to someone else.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 89,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 350,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S091",
+      "anchor": "Wizkid",
+      "city": "Toronto",
+      "audience": "core fans and culture-forward young adults",
+      "emotion": "belonging",
+      "objective": "Create a high-energy opening night people will photograph and share.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 90,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 341,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S092",
+      "anchor": "Burna Boy",
+      "city": "Toronto",
+      "audience": "premium nightlife guests and tastemakers",
+      "emotion": "status",
+      "objective": "Build an intimate, emotionally resonant experience that makes guests feel seen.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 91,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 342,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S093",
+      "anchor": "Dune",
+      "city": "Toronto",
+      "audience": "families looking for a joyful shared experience",
+      "emotion": "joy",
+      "objective": "Find a headline-scale venue for a major live event.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 92,
+      "httpStatus": 200,
+      "mode": "live",
+      "durationMs": 3612,
+      "trail": [
+        "Brief interpreted",
+        "Anchor resolution planned",
+        "Cross-domain discovery planned",
+        "Resolved Dune in Qloo",
+        "Compared 24 Qloo entities",
+        "Composed three strategy-distinct concepts"
+      ],
+      "concepts": [
+        {
+          "strategy": "Closest fit",
+          "title": "Dune: Signal Room",
+          "venue": "Queen Elizabeth Theatre",
+          "venueNote": "190 Princes' Blvd Toronto, ON M6K 3C3 Canada",
+          "venueFit": "Large-format venue lead for headline-scale programming; capacity and availability still require verification.",
+          "evidence": [
+            {
+              "id": "FED607CD-1EFF-42ED-A2FB-66A18E79DD73",
+              "name": "Queen Elizabeth Theatre",
+              "domain": "place",
+              "affinity": 0.8324786931872632,
+              "address": "190 Princes' Blvd Toronto, ON M6K 3C3 Canada",
+              "venueClass": "stadium or major event venue",
+              "venueNote": "Large-format venue lead for headline-scale programming; capacity and availability still require verification."
+            },
+            {
+              "id": "29B49E3F-A0EC-42C6-A453-38B1C20D8374",
+              "name": "Tesla",
+              "domain": "brand",
+              "affinity": 0.9881800005781308,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "24259855-E26C-43A3-93E5-5BB4E09ABBBF",
+              "name": "Hildur Guðnadóttir",
+              "domain": "artist",
+              "affinity": 0.935071661168577,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Turn the anchor’s strongest cultural signals into an intimate, high-confidence experience. Built for families looking for a joyful shared experience in Toronto.",
+          "whyItWorks": "Qloo connected Dune to the displayed Queen Elizabeth Theatre, Tesla, Hildur Guðnadóttir research leads. Encore used those leads to form a coherent closest fit concept for the stated objective: Find a headline-scale venue for a major live event."
+        },
+        {
+          "strategy": "Cultural bridge",
+          "title": "Common Ground",
+          "venue": "The Top CN Tower",
+          "venueNote": "301 Front St W Toronto, ON M5V 2T6 Canada",
+          "venueFit": "Qloo cultural place lead; venue type and event suitability require verification.",
+          "evidence": [
+            {
+              "id": "6648F3A7-2927-454B-A0EB-3BB2020CB983",
+              "name": "The Top CN Tower",
+              "domain": "place",
+              "affinity": 0.8598072010617153,
+              "address": "301 Front St W Toronto, ON M5V 2T6 Canada",
+              "venueClass": "unclassified place",
+              "venueNote": "Qloo cultural place lead; venue type and event suitability require verification."
+            },
+            {
+              "id": "D5B78065-6DBB-4DDB-80DF-6495B9B1006B",
+              "name": "Apple Inc",
+              "domain": "brand",
+              "affinity": 0.9477742411154014,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "6D792109-C0E2-44E3-9EBC-AA9ED20E7D90",
+              "name": "Bryce Dessner",
+              "domain": "artist",
+              "affinity": 0.9328256444711155,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Connect two adjacent audiences through a shared place, sound, and ritual. Built for families looking for a joyful shared experience in Toronto.",
+          "whyItWorks": "Qloo connected Dune to the displayed The Top CN Tower, Apple Inc, Bryce Dessner research leads. Encore used those leads to form a coherent cultural bridge concept for the stated objective: Find a headline-scale venue for a major live event."
+        },
+        {
+          "strategy": "Plot twist",
+          "title": "The Beautiful Collision",
+          "venue": "CN Tower",
+          "venueNote": "301 Front St W Toronto, ON M5V 2T6 Canada",
+          "venueFit": "Qloo cultural place lead; venue type and event suitability require verification.",
+          "evidence": [
+            {
+              "id": "210FCAC5-3CF3-465B-9D58-54EE1F8F1801",
+              "name": "CN Tower",
+              "domain": "place",
+              "affinity": 0.8541260266788555,
+              "address": "301 Front St W Toronto, ON M5V 2T6 Canada",
+              "venueClass": "unclassified place",
+              "venueNote": "Qloo cultural place lead; venue type and event suitability require verification."
+            },
+            {
+              "id": "EF6C6B18-ABB3-4A9C-AF86-CF24976407A8",
+              "name": "Google",
+              "domain": "brand",
+              "affinity": 0.9308850616641319,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            },
+            {
+              "id": "5AD69C26-F5C4-482F-9C8B-E3B7432F2FDC",
+              "name": "Jóhann Jóhannsson",
+              "domain": "artist",
+              "affinity": 0.9308741547550539,
+              "address": "",
+              "venueClass": null,
+              "venueNote": null
+            }
+          ],
+          "hook": "Use a less obvious affinity to create a collaboration people will want to explain to someone else. Built for families looking for a joyful shared experience in Toronto.",
+          "whyItWorks": "Qloo connected Dune to the displayed CN Tower, Google, Jóhann Jóhannsson research leads. Encore used those leads to form a coherent plot twist concept for the stated objective: Find a headline-scale venue for a major live event."
+        }
+      ],
+      "evaluation": {
+        "venueClasses": [
+          "stadium or major event venue",
+          "unclassified place",
+          "unclassified place"
+        ],
+        "venueNotes": [
+          "Large-format venue lead for headline-scale programming; capacity and availability still require verification.",
+          "Qloo cultural place lead; venue type and event suitability require verification.",
+          "Qloo cultural place lead; venue type and event suitability require verification."
+        ],
+        "partnerNames": [
+          "Tesla",
+          "Hildur Guðnadóttir",
+          "Apple Inc",
+          "Bryce Dessner",
+          "Google",
+          "Jóhann Jóhannsson"
+        ],
+        "emotionCovered": true,
+        "largeScaleRequested": true,
+        "hasLargeVenue": true,
+        "culturalLeadCount": 2,
+        "duplicateVenues": false,
+        "flags": [
+          "2 location lead(s) need venue verification"
+        ],
+        "verdict": "review"
+      }
+    },
+    {
+      "id": "S094",
+      "anchor": "Black Panther",
+      "city": "Toronto",
+      "audience": "design-conscious creatives who want an immersive night out",
+      "emotion": "wonder",
+      "objective": "Create a nostalgic cultural bridge between the anchor and the city.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 93,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 578,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S095",
+      "anchor": "The Sims",
+      "city": "Toronto",
+      "audience": "diaspora communities reconnecting with home",
+      "emotion": "nostalgia",
+      "objective": "Introduce the anchor to a new audience through an unexpected local collaboration.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 94,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 367,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S096",
+      "anchor": "Nike",
+      "city": "Toronto",
+      "audience": "music discovery fans who want a high-energy crowd",
+      "emotion": "energy",
+      "objective": "Make a premium experience feel distinctive, cinematic, and worth travelling for.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 95,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 357,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S097",
+      "anchor": "FIFA",
+      "city": "Toronto",
+      "audience": "brand community members who want something unexpected",
+      "emotion": "surprise",
+      "objective": "Turn cultural affinity into a practical launch concept with a clear guest journey.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 96,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 345,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S098",
+      "anchor": "Stranger Things",
+      "city": "Toronto",
+      "audience": "film and storytelling fans seeking emotional depth",
+      "emotion": "awe",
+      "objective": "Create a joyful community moment that families can safely share.",
+      "budget": "Medium",
+      "format": "Weekend residency",
+      "index": 97,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 556,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S099",
+      "anchor": "Sade",
+      "city": "Toronto",
+      "audience": "local culture leaders and influential connectors",
+      "emotion": "pride",
+      "objective": "Find a credible partner ecosystem for a city-specific activation.",
+      "budget": "Flagship",
+      "format": "Listening session",
+      "index": 98,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 518,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    },
+    {
+      "id": "S100",
+      "anchor": "Afrobeats",
+      "city": "Toronto",
+      "audience": "curious newcomers who want a welcoming first experience",
+      "emotion": "welcome",
+      "objective": "Design a surprising concept that people will want to explain to someone else.",
+      "budget": "Lean",
+      "format": "One-night pop-up",
+      "index": 99,
+      "httpStatus": 502,
+      "mode": null,
+      "durationMs": 458,
+      "trail": [],
+      "concepts": [],
+      "evaluation": {
+        "flags": [
+          "Qloo returned 429. Check the event key and inputs."
+        ],
+        "verdict": "fail"
+      }
+    }
+  ]
+}

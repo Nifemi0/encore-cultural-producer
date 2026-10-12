@@ -1,0 +1,15 @@
+{
+  "endpoint": "https://encore.nuvixes.studio",
+  "generatedAt": "2026-10-12T19:54:07.873Z",
+  "total": 10,
+  "httpPass": 10,
+  "liveMode": 10,
+  "verdictPass": 6,
+  "review": 4,
+  "failures": 0,
+  "flagCounts": {
+    "1 location lead(s) need venue verification": 3,
+    "3 location lead(s) need venue verification": 1
+  },
+  "averageDurationMs": 3951
+}

@@ -1,0 +1,15 @@
+{
+  "endpoint": "https://encore.nuvixes.studio",
+  "generatedAt": "2026-10-12T19:52:05.903Z",
+  "total": 100,
+  "httpPass": 100,
+  "liveMode": 0,
+  "verdictPass": 0,
+  "review": 100,
+  "failures": 0,
+  "flagCounts": {
+    "2 location lead(s) need venue verification": 100,
+    "large-scale request lacks stadium/major-event venue": 10
+  },
+  "averageDurationMs": 415
+}

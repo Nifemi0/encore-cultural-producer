@@ -1,0 +1,10 @@
+{
+  "endpoint": "https://encore.nuvixes.studio",
+  "total": 100,
+  "concurrentWorkers": 5,
+  "httpPass": 2,
+  "liveMode": 2,
+  "rateLimited": 98,
+  "error": "Qloo returned 429. Check the event key and inputs.",
+  "interpretation": "Preserved as an operational rate-limit finding; not treated as a cultural-quality failure."
+}
