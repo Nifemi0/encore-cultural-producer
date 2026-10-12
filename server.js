@@ -36,6 +36,10 @@ export async function handler(req, res) {
     if (pathname === "/api/status" && req.method === "GET") {
       return sendJson(res, 200, { qlooConfigured: Boolean(process.env.QLOO_API_KEY), qlooKeyLength: process.env.QLOO_API_KEY?.length || 0, qlooBaseUrl: process.env.QLOO_BASE_URL || "default", sampleModeAvailable: true });
     }
+    if (pathname === "/api/qloo-diagnostic" && req.method === "GET") {
+      const response = await fetch(`${process.env.QLOO_BASE_URL || "https://hackathon.api.qloo.com"}/search?query=Dune&take=1`, { headers: { "X-Api-Key": process.env.QLOO_API_KEY, Accept: "application/json" } });
+      return sendJson(res, 200, { upstreamStatus: response.status, upstreamBody: (await response.text()).slice(0, 240) });
+    }
     if (pathname === "/api/concepts" && req.method === "POST") {
       return sendJson(res, 200, await createConcepts(await readJson(req), {
         apiKey: process.env.QLOO_API_KEY,
