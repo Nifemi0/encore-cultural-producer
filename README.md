@@ -2,6 +2,8 @@
 
 > Make the collaboration nobody saw coming.
 
+[MIT licensed](LICENSE) · [Live demo](https://encore.nuvixes.studio)
+
 Encore is a Qloo-powered creative producer for agencies, promoters, and experience teams. Give it an artist, film, game, or brand plus a city and objective. Its agent investigates cultural affinity across local places, brands, and artists, returns three distinct pop-up directions, and turns the selected direction into an evidence-backed activation dossier.
 
 ## What works
