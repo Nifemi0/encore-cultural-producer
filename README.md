@@ -65,4 +65,4 @@ Encore does not claim that a venue is available, a partner has agreed to partici
 
 ## Submission status
 
-See [testing status](docs/submission/TESTING-STATUS.md), [claims](CLAIMS.md), and the [rules ledger](docs/RULES-LEDGER.md).
+Encore was submitted to the Qloo Agentic Hackathon on October 14, 2026. View the [public Devpost project](https://devpost.com/software/encore-gzfu9m), [testing status](docs/submission/TESTING-STATUS.md), [claims](CLAIMS.md), and [rules ledger](docs/RULES-LEDGER.md).

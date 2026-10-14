@@ -102,7 +102,7 @@ Optional 90-second outline:
 
 ## Screenshot Shot List
 
-Chrome captures reviewed on October 12, 2026: landing hero, live Wizkid concept board, and selected activation dossier. These captures are visible in the build session but have not been uploaded to Devpost.
+Chrome captures were reviewed on October 12, 2026. A polished 3:2 landing-page capture was uploaded to Devpost as both the project thumbnail and the first gallery image, with the caption `Encore cultural activation briefing interface`.
 
 1. Landing hero and Qloo-powered product thesis.
 2. Completed creative brief before generation.
@@ -114,13 +114,13 @@ Chrome captures reviewed on October 12, 2026: landing hero, live Wizkid concept 
 
 The application and repository are public, Qloo is central to the live workflow, the setup path is documented, and the current test suite passes. The ten-scenario retest showed that raw affinity still needs human cultural judgment: two scenarios were promising, four were partially relevant, three required rejection or correction, and one broad anchor required a more precise film input.
 
-Official Devpost pages were inspected in the authenticated Chrome session on October 13, 2026. Registration is confirmed for the `Nifemi0` account. An Encore project draft now exists at https://devpost.com/software/encore-gzfu9m and is complete through four of Devpost's five steps. The submission period closes October 30, 2026 at 11:45 p.m. ET, displayed locally as October 31, 2026 at 4:45 a.m. WAT. Judging runs from November 2 at 12:00 p.m. ET through November 16 at 11:45 p.m. ET, with winners expected around November 23 at 3:00 p.m. ET.
+Official Devpost pages were inspected in the authenticated Chrome session on October 13, 2026. Registration is confirmed for the `Nifemi0` account. Encore was submitted successfully on October 14, 2026 and is public at https://devpost.com/software/encore-gzfu9m. The submission period closes October 30, 2026 at 11:45 p.m. ET, displayed locally as October 31, 2026 at 4:45 a.m. WAT. Judging runs from November 2 at 12:00 p.m. ET through November 16 at 11:45 p.m. ET, with winners expected around November 23 at 3:00 p.m. ET.
 
 The official rules require a working Qloo-powered agentic project, functional demo link, public open-source repository containing source, assets, and setup instructions, a visible open-source licence, and a text description of features and functionality. The project must remain free and unrestricted through judging. Submission materials must be in English.
 
 Stage one is a pass/fail check for viability and fit with the theme and Qloo API. Stage two weighs four criteria equally: technological implementation, design, potential impact, and quality of the idea. The current build directly addresses each criterion through its live Qloo workflow, polished interface, production-planning use case, evidence ledger, and explicit verification boundaries.
 
-The project name, elevator pitch, Markdown story, technology tags, live application URL, public repository URL, start date, and new-project explanation are saved in the Devpost draft. The remaining optional quality work is a 3:2 thumbnail and gallery image. The final terms checkbox and **Submit project** button remain untouched pending final review and explicit approval.
+The submitted project includes the project name, elevator pitch, Markdown story, technology tags, live application URL, public repository URL, start date, new-project explanation, 3:2 thumbnail, and gallery image. Devpost displayed the confirmation `Project submitted!` and the public page shows Encore under the Qloo Agentic Hackathon.
 
 ## Known Limitations
 
@@ -131,15 +131,15 @@ The project name, elevator pitch, Markdown story, technology tags, live applicat
 - Venue capacity, access, dates, licensing, price, and partner participation are not verified by Encore.
 - Broad organization anchors may need a more precise artist, film, game, or brand entity.
 
-## Remaining Submission Work
+## Submission Complete
 
-- Obtain explicit rules acknowledgement from the entrant.
-- Decide whether to capture and upload a 3:2 product image as the thumbnail and gallery media.
-- Recheck the saved Devpost preview and required answers.
-- Review the completed draft against the four judging criteria.
-- Obtain final approval immediately before the irreversible submission action.
+- [x] Entrant acknowledged the official rules.
+- [x] Required answers and public links were reviewed.
+- [x] Thumbnail and gallery image were uploaded.
+- [x] Final approval was received immediately before submission.
+- [x] Devpost confirmed the submission on October 14, 2026.
 
-### ⏳ Not submitted yet
+### ✅ Submitted
 
-Nothing has been sent to Devpost.
+Encore is entered in the Qloo Agentic Hackathon: https://devpost.com/software/encore-gzfu9m
 
